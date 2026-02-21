@@ -1,0 +1,34 @@
+Ticker,Sector,Sentiment_Score,Label,News_Count
+AMD,Technology,0.08258315789473684,Positive,95
+ADBE,Technology,-0.0014740740740740701,Neutral,27
+ACN,Technology,-0.010883333333333332,Neutral,18
+ABNB,Consumer Discretionary,0.4098333333333333,Positive,6
+AMZN,Consumer Discretionary,0.16398313253012048,Positive,249
+APTV,Consumer Discretionary,-0.01544,Neutral,5
+GOOG,Communication Services,0.08405846774193551,Positive,248
+GOOGL,Communication Services,0.07836867469879516,Positive,249
+T,Communication Services,0.04825499999999999,Neutral,20
+AXP,Financials,0.2293774193548387,Positive,31
+AFL,Financials,0.15027999999999997,Positive,5
+ALL,Financials,0.08476249999999999,Positive,8
+ABT,Healthcare,0.12484666666666668,Positive,15
+ABBV,Healthcare,0.08023214285714286,Positive,28
+A,Healthcare,-0.07636,Negative,5
+AOS,Industrials,0.1806,Positive,2
+MMM,Industrials,0.08454999999999997,Positive,6
+ALLE,Industrials,-0.10505000000000002,Negative,6
+CVX,Energy,0.09210566037735848,Positive,53
+APA,Energy,0.056575,Positive,4
+BKR,Energy,0.05082857142857143,Positive,7
+AMCR,Materials,0.3175,Positive,5
+APD,Materials,0.2189,Positive,7
+ALB,Materials,0.12159999999999999,Positive,8
+ARE,Real Estate,0.21116666666666664,Positive,3
+AMT,Real Estate,0.038799999999999994,Neutral,11
+AVB,Real Estate,-0.042666666666666665,Neutral,3
+LNT,Utilities,0.30567058823529414,Positive,17
+AEE,Utilities,0.26127142857142854,Positive,7
+AES,Utilities,0.2550818181818182,Positive,11
+MO,Consumer Staples,0.21224615384615383,Positive,13
+BF-B,Consumer Staples,0.0,Neutral,0
+ADM,Consumer Staples,-0.04046,Neutral,5

@@ -1,0 +1,4330 @@
+{
+    "generated_at": "2026-02-21 13:49:26",
+    "sector_overview": [
+        {
+            "sector": "Technology",
+            "etf": "XLK",
+            "performance": {
+                "1D": 0.47785331778252293,
+                "1W": 1.199625090441834,
+                "1M": -2.037405413756062,
+                "3M": 1.1315520130111394,
+                "6M": 8.735823300012001,
+                "YTD": -2.370061051016486
+            },
+            "trend_score": 50.0,
+            "momentum_score": 0.0,
+            "volume_spike": 0.6412092522215331,
+            "close": 140.8800048828125
+        },
+        {
+            "sector": "Financials",
+            "etf": "XLF",
+            "performance": {
+                "1D": 0.6519657576983368,
+                "1W": 1.5476940859202097,
+                "1M": -1.814435882187647,
+                "3M": 2.537394458112432,
+                "6M": -0.043774628222576474,
+                "YTD": -4.442014587935612
+            },
+            "trend_score": 50.0,
+            "momentum_score": 0.0,
+            "volume_spike": 1.0084391353611701,
+            "close": 52.4900016784668
+        },
+        {
+            "sector": "Healthcare",
+            "etf": "XLV",
+            "performance": {
+                "1D": -0.2797832875404696,
+                "1W": 0.5256457206530449,
+                "1M": -0.9098870419555007,
+                "3M": 3.209786483551378,
+                "6M": 15.060386977769383,
+                "YTD": 0.8423978288580202
+            },
+            "trend_score": 100.0,
+            "momentum_score": 100.0,
+            "volume_spike": 0.9638430858207112,
+            "close": 156.82000732421875
+        },
+        {
+            "sector": "Consumer Discretionary",
+            "etf": "XLY",
+            "performance": {
+                "1D": 1.0409489906312162,
+                "1W": 1.1366569586183024,
+                "1M": -3.2537104843402282,
+                "3M": 4.839873133069985,
+                "6M": 3.60341116373026,
+                "YTD": -0.7604575728623303
+            },
+            "trend_score": 50.0,
+            "momentum_score": 0.0,
+            "volume_spike": 1.5038526203828086,
+            "close": 117.44999694824219
+        },
+        {
+            "sector": "Communication Services",
+            "etf": "XLC",
+            "performance": {
+                "1D": 1.4417263078938458,
+                "1W": 1.884162311243361,
+                "1M": 1.893052298991606,
+                "3M": 4.801117808490753,
+                "6M": 7.043055344045462,
+                "YTD": -0.08554189291345428
+            },
+            "trend_score": 100.0,
+            "momentum_score": 50.0,
+            "volume_spike": 1.0237407627622526,
+            "close": 116.80000305175781
+        },
+        {
+            "sector": "Industrials",
+            "etf": "XLI",
+            "performance": {
+                "1D": 0.5047064807368384,
+                "1W": 2.5933405079820915,
+                "1M": 6.534019642526453,
+                "3M": 18.676681806742767,
+                "6M": 18.08737002067225,
+                "YTD": 12.18508704937529
+            },
+            "trend_score": 100.0,
+            "momentum_score": 80.0,
+            "volume_spike": 1.00423431674222,
+            "close": 177.22999572753906
+        },
+        {
+            "sector": "Energy",
+            "etf": "XLE",
+            "performance": {
+                "1D": -0.5436738590093982,
+                "1W": 1.667287020213302,
+                "1M": 12.574361165364584,
+                "3M": 21.563409256334047,
+                "6M": 30.13201923460485,
+                "YTD": 20.21905637178097
+            },
+            "trend_score": 100.0,
+            "momentum_score": 100.0,
+            "volume_spike": 0.9142765200626893,
+            "close": 54.880001068115234
+        },
+        {
+            "sector": "Materials",
+            "etf": "XLB",
+            "performance": {
+                "1D": 0.24606709996658258,
+                "1W": 0.24606709996658258,
+                "1M": 7.554827943136841,
+                "3M": 24.493416301767503,
+                "6M": 18.699522453835236,
+                "YTD": 14.830876650040642
+            },
+            "trend_score": 100.0,
+            "momentum_score": 50.0,
+            "volume_spike": 0.858300387304098,
+            "close": 52.959999084472656
+        },
+        {
+            "sector": "Real Estate",
+            "etf": "XLRE",
+            "performance": {
+                "1D": 0.8333347314669516,
+                "1W": 1.609522879864262,
+                "1M": 4.837550356529601,
+                "3M": 7.852230924622587,
+                "6M": 6.0773860970260785,
+                "YTD": 7.8751862829611605
+            },
+            "trend_score": 100.0,
+            "momentum_score": 100.0,
+            "volume_spike": 0.7967257902690086,
+            "close": 43.560001373291016
+        },
+        {
+            "sector": "Utilities",
+            "etf": "XLU",
+            "performance": {
+                "1D": 0.4771225716569073,
+                "1W": 2.386744378021409,
+                "1M": 7.6940988797541285,
+                "3M": 4.633711038689154,
+                "6M": 9.066482774822324,
+                "YTD": 7.295047484057869
+            },
+            "trend_score": 100.0,
+            "momentum_score": 80.0,
+            "volume_spike": 0.7535402819701269,
+            "close": 46.33000183105469
+        },
+        {
+            "sector": "Consumer Staples",
+            "etf": "XLP",
+            "performance": {
+                "1D": 0.2509424264834243,
+                "1W": -1.4796544203237973,
+                "1M": 6.610864612862841,
+                "3M": 14.90936708527423,
+                "6M": 7.189448463560446,
+                "YTD": 13.129098503935586
+            },
+            "trend_score": 100.0,
+            "momentum_score": 50.0,
+            "volume_spike": 0.7504960743598179,
+            "close": 87.88999938964844
+        }
+    ],
+    "constituents": {
+        "Technology": [
+            {
+                "ticker": "ACN",
+                "market_cap": 133546909696,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.1860940502221806,
+                    "1W": -3.017337021463801,
+                    "1M": -23.286547033673376,
+                    "3M": -10.270830790201822,
+                    "6M": -15.565573994596576,
+                    "YTD": -17.157147147196504
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 0.0,
+                "volume": 5932400,
+                "close": 215.35000610351562
+            },
+            {
+                "ticker": "ADBE",
+                "market_cap": 108254142464,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.23147491350448499,
+                    "1W": -1.4819103422619047,
+                    "1M": -12.10618370143784,
+                    "3M": -20.297721090198078,
+                    "6M": -26.828511809749493,
+                    "YTD": -22.409242477320575
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 12.5,
+                "volume": 6589300,
+                "close": 258.6099853515625
+            },
+            {
+                "ticker": "AMD",
+                "market_cap": 326326714368,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -1.5833216787204376,
+                    "1W": -2.8115026106058436,
+                    "1M": -19.87590414279783,
+                    "3M": -13.087845876220863,
+                    "6M": 21.156172877649727,
+                    "YTD": -10.43540842029507
+                },
+                "scores": {
+                    "trend": 50.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 15.0,
+                "volume": 36266600,
+                "close": 200.14999389648438
+            },
+            {
+                "ticker": "AKAM",
+                "market_cap": 13547788288,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -14.07062568138244,
+                    "1W": -9.979927712927642,
+                    "1M": 0.4801503866634408,
+                    "3M": 7.3284710072131425,
+                    "6M": 23.810151448401378,
+                    "YTD": 10.658049186196408
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 50.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 100.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 50.0,
+                "volume": 15775200,
+                "close": 94.16999816894531
+            },
+            {
+                "ticker": "APH",
+                "market_cap": 185660620800,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.1058225299859936,
+                    "1W": 5.0859234508368765,
+                    "1M": -2.302724887992005,
+                    "3M": 14.26400425816671,
+                    "6M": 39.476241091505734,
+                    "YTD": 8.109645714547836
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 50.0,
+                "volume": 7464900,
+                "close": 151.0399932861328
+            },
+            {
+                "ticker": "ADI",
+                "market_cap": 173841891328,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 2.817842841095593,
+                    "1W": 7.143292634631558,
+                    "1M": 16.414728451394776,
+                    "3M": 54.8185474212042,
+                    "6M": 46.07465631194743,
+                    "YTD": 29.69606613754962
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 62.0,
+                "volume": 5341300,
+                "close": 355.0299987792969
+            },
+            {
+                "ticker": "AAPL",
+                "market_cap": 3888777003008,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.5350373037534468,
+                    "1W": 1.0888990434063646,
+                    "1M": 6.9362233976354215,
+                    "3M": -0.9768388956517906,
+                    "6M": 17.28874396265649,
+                    "YTD": -2.281261123285281
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 25.0,
+                "volume": 42044900,
+                "close": 264.5799865722656
+            },
+            {
+                "ticker": "AMAT",
+                "market_cap": 297947168768,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.5006945115475077,
+                    "1W": 14.451768261364736,
+                    "1M": 15.560255459575172,
+                    "3M": 67.28185140205599,
+                    "6M": 134.63232843809092,
+                    "YTD": 39.78806181087302
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 60.0,
+                "volume": 8175800,
+                "close": 375.3800048828125
+            },
+            {
+                "ticker": "APP",
+                "market_cap": 141644873728,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.6213574455779731,
+                    "1W": 14.10972404593997,
+                    "1M": -21.383507098706396,
+                    "3M": -20.404557916619673,
+                    "6M": 1.527714175850752,
+                    "YTD": -32.28749066561507
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 20.0,
+                "volume": 8651200,
+                "close": 418.67999267578125
+            },
+            {
+                "ticker": "ANET",
+                "market_cap": 167220461568,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -3.2354460246589065,
+                    "1W": -1.7243945494772353,
+                    "1M": 4.32083614663134,
+                    "3M": 7.565813340446273,
+                    "6M": 1.0040252933547724,
+                    "YTD": -0.6062969913004348
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 32.5,
+                "volume": 8294800,
+                "close": 132.7899932861328
+            },
+            {
+                "ticker": "ADSK",
+                "market_cap": 48346738688,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.9253646091212523,
+                    "1W": 1.5615867146603786,
+                    "1M": -11.831885652968767,
+                    "3M": -22.328307431039914,
+                    "6M": -21.359528847426702,
+                    "YTD": -20.838423942179553
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 2.5,
+                "volume": 1743100,
+                "close": 226.97999572753906
+            },
+            {
+                "ticker": "AVGO",
+                "market_cap": 1577184657408,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.4012085323126877,
+                    "1W": 0.44689446771815017,
+                    "1M": 1.1709264739814433,
+                    "3M": -2.1185061757174535,
+                    "6M": 14.660681319721666,
+                    "YTD": -4.306426969385501
+                },
+                "scores": {
+                    "trend": 50.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 35.0,
+                "volume": 17638800,
+                "close": 332.6499938964844
+            },
+            {
+                "ticker": "CDNS",
+                "market_cap": 80733331456,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.10452057130092304,
+                    "1W": 2.7572616714421057,
+                    "1M": -5.595207036546123,
+                    "3M": -2.2855423208598182,
+                    "6M": -14.233611721011128,
+                    "YTD": -4.548967588542026
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 11.25,
+                "volume": 2534100,
+                "close": 296.2799987792969
+            },
+            {
+                "ticker": "CDW",
+                "market_cap": 16335411200,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.3785143171731732,
+                    "1W": -1.726722707394948,
+                    "1M": -2.3350597812249343,
+                    "3M": -10.4529268747765,
+                    "6M": -24.71028545620455,
+                    "YTD": -6.398320845709995
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 0.0,
+                "volume": 1772900,
+                "close": 124.63999938964844
+            },
+            {
+                "ticker": "CIEN",
+                "market_cap": 47383187456,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 5.194563096225399,
+                    "1W": 14.333022247644278,
+                    "1M": 44.44349178000102,
+                    "3M": 79.11765358664773,
+                    "6M": 286.59973980453464,
+                    "YTD": 36.125341595709926
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 57.0,
+                "volume": 2525700,
+                "close": 334.95001220703125
+            }
+        ],
+        "Consumer Discretionary": [
+            {
+                "ticker": "ABNB",
+                "market_cap": 76671844352,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.6532881896655023,
+                    "1W": 10.288030699694305,
+                    "1M": -4.266784268655209,
+                    "3M": 10.804021329518857,
+                    "6M": 2.344750581500171,
+                    "YTD": -3.849331124454984
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 32.5,
+                "volume": 6474500,
+                "close": 127.88999938964844
+            },
+            {
+                "ticker": "AMZN",
+                "market_cap": 2255514238976,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 2.5627257563010657,
+                    "1W": 5.265528149024852,
+                    "1M": -9.16518834983428,
+                    "3M": -5.58975613157512,
+                    "6M": -6.121262275004274,
+                    "YTD": -7.236202821036838
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 12.5,
+                "volume": 65790900,
+                "close": 210.11000061035156
+            },
+            {
+                "ticker": "APTV",
+                "market_cap": 17193439232,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -1.1061389507524757,
+                    "1W": -4.132530488163591,
+                    "1M": -0.8720530428758304,
+                    "3M": 5.015181760741895,
+                    "6M": 5.8815676369922985,
+                    "YTD": 1.4405879885866442
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 32.5,
+                "volume": 1826400,
+                "close": 79.56999969482422
+            },
+            {
+                "ticker": "AZO",
+                "market_cap": 62347874304,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.08089807487872622,
+                    "1W": -1.0607816861311066,
+                    "1M": 2.092777402203747,
+                    "3M": -2.073462802594318,
+                    "6M": -9.850173601060336,
+                    "YTD": 13.460174645428133
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 40.0,
+                "volume": 132500,
+                "close": 3748.52001953125
+            },
+            {
+                "ticker": "BBY",
+                "market_cap": 13547330560,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -2.745097452564846,
+                    "1W": -0.6012014384707057,
+                    "1M": -3.124991403175919,
+                    "3M": -12.188857807845451,
+                    "6M": -8.43349932594281,
+                    "YTD": -6.793866619700712
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 50.0,
+                    "momentum": 0.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 100.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 30.0,
+                "volume": 9390800,
+                "close": 64.4800033569336
+            },
+            {
+                "ticker": "BKNG",
+                "market_cap": 132128301056,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.7302795726830795,
+                    "1W": -1.9790352879492763,
+                    "1M": -21.047675037325984,
+                    "3M": -14.602095674926751,
+                    "6M": -27.45067319963446,
+                    "YTD": -23.414677459389242
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 50.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 80.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 18.0,
+                "volume": 805500,
+                "close": 4076.7900390625
+            },
+            {
+                "ticker": "CCL",
+                "market_cap": 44220321792,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.3946134538753516,
+                    "1W": -1.4175569195205777,
+                    "1M": 13.762388433387917,
+                    "3M": 24.758827973277228,
+                    "6M": 9.835520846287586,
+                    "YTD": 3.938792025033598
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 42.5,
+                "volume": 18131500,
+                "close": 31.989999771118164
+            },
+            {
+                "ticker": "CVNA",
+                "market_cap": 72980373504,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.1508718633145598,
+                    "1W": -2.1851627858307068,
+                    "1M": -26.02083353593656,
+                    "3M": 6.115627583957732,
+                    "6M": -0.587693901675371,
+                    "YTD": -15.897565242426609
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 12.5,
+                "volume": 7344200,
+                "close": 336.6199951171875
+            },
+            {
+                "ticker": "CMG",
+                "market_cap": 49638318080,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -1.1324737723245681,
+                    "1W": 4.743305679971381,
+                    "1M": -7.809430770741198,
+                    "3M": 22.041614552003434,
+                    "6M": -12.839560758022067,
+                    "YTD": 0.13336685735403697
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 11.25,
+                "volume": 13153700,
+                "close": 37.540000915527344
+            },
+            {
+                "ticker": "DRI",
+                "market_cap": 25271490560,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 2.014277693201757,
+                    "1W": 2.07178598584243,
+                    "1M": 4.789238984256527,
+                    "3M": 27.97675226457803,
+                    "6M": 6.349405163623696,
+                    "YTD": 16.92293379113825
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 53.75,
+                "volume": 986800,
+                "close": 217.27000427246094
+            },
+            {
+                "ticker": "DECK",
+                "market_cap": 17298454528,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.5251145491526668,
+                    "1W": 2.3013324216463062,
+                    "1M": 16.43123366573164,
+                    "3M": 41.68557621785479,
+                    "6M": 14.070157578338591,
+                    "YTD": 11.14336681698505
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 41.25,
+                "volume": 2779000,
+                "close": 118.69000244140625
+            },
+            {
+                "ticker": "DPZ",
+                "market_cap": 13057093632,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.13502441374523175,
+                    "1W": 0.7412610878815606,
+                    "1M": -3.587192317881585,
+                    "3M": -4.2578584311716945,
+                    "6M": -12.464773442200245,
+                    "YTD": -9.563114546762511
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 7.5,
+                "volume": 1074600,
+                "close": 384.6099853515625
+            },
+            {
+                "ticker": "DASH",
+                "market_cap": 75980726272,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.05675171311710235,
+                    "1W": 9.4017586904978,
+                    "1M": -14.621272310196822,
+                    "3M": -16.87571116367332,
+                    "6M": -27.696666397146053,
+                    "YTD": -19.79161987751175
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 10.0,
+                "volume": 7760100,
+                "close": 176.2899932861328
+            },
+            {
+                "ticker": "DHI",
+                "market_cap": 47775256576,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.2075933205670553,
+                    "1W": -0.2855588013613225,
+                    "1M": 4.097217826674974,
+                    "3M": 18.879094943185816,
+                    "6M": 1.057025165019835,
+                    "YTD": 12.94818878380131
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 45.0,
+                "volume": 1646500,
+                "close": 164.1199951171875
+            },
+            {
+                "ticker": "EBAY",
+                "market_cap": 40247988224,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 3.9174037697040927,
+                    "1W": 10.905422029147918,
+                    "1M": -5.117431604845035,
+                    "3M": 8.005265760440647,
+                    "6M": -10.582183907333686,
+                    "YTD": 1.1601219441233153
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 40.0,
+                "volume": 8665100,
+                "close": 88.06999969482422
+            }
+        ],
+        "Communication Services": [
+            {
+                "ticker": "GOOGL",
+                "market_cap": 3810313371648,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 4.005284675036924,
+                    "1W": 1.935278636352144,
+                    "1M": -4.0806363655626265,
+                    "3M": 10.871688409678255,
+                    "6M": 58.272092198755566,
+                    "YTD": -0.05393714531122072
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 30.0,
+                "volume": 53180700,
+                "close": 314.9800109863281
+            },
+            {
+                "ticker": "GOOG",
+                "market_cap": 3809345273856,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 3.735668872411872,
+                    "1W": 1.7875032700576359,
+                    "1M": -4.105003589100583,
+                    "3M": 10.578835235264371,
+                    "6M": 57.543870363429136,
+                    "YTD": -0.13320227641074112
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 30.0,
+                "volume": 33640700,
+                "close": 314.8999938964844
+            },
+            {
+                "ticker": "T",
+                "market_cap": 198362791936,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.3586814364415386,
+                    "1W": -2.8472212380096975,
+                    "1M": 19.063827839303524,
+                    "3M": 10.57827316393139,
+                    "6M": -2.278677653248528,
+                    "YTD": 15.260741125099766
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 37.5,
+                "volume": 25380300,
+                "close": 27.979999542236328
+            },
+            {
+                "ticker": "CHTR",
+                "market_cap": 29784860672,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.596004864834764,
+                    "1W": -3.326612108548902,
+                    "1M": 22.837172258108648,
+                    "3M": 14.6843394599625,
+                    "6M": -13.674890151825583,
+                    "YTD": 9.977066611526597
+                },
+                "scores": {
+                    "trend": 50.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 30.0,
+                "volume": 1576200,
+                "close": 230.16000366210938
+            },
+            {
+                "ticker": "CMCSA",
+                "market_cap": 114199658496,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.12746656866938483,
+                    "1W": -1.5084838052792438,
+                    "1M": 8.48044587988919,
+                    "3M": 23.6542080184756,
+                    "6M": 2.7062037632762252,
+                    "YTD": 14.52874544174689
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 30.0,
+                "volume": 25240900,
+                "close": 31.34000015258789
+            },
+            {
+                "ticker": "EA",
+                "market_cap": 50150842368,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.2601505908391082,
+                    "1W": -0.029937551318390234,
+                    "1M": -1.8368846985621086,
+                    "3M": -0.6057612785027626,
+                    "6M": 17.205999851321828,
+                    "YTD": -1.9617482969441964
+                },
+                "scores": {
+                    "trend": 50.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 15.0,
+                "volume": 2255000,
+                "close": 200.39999389648438
+            },
+            {
+                "ticker": "FOXA",
+                "market_cap": 24256083968,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.5313401223080523,
+                    "1W": 1.045543415554041,
+                    "1M": -21.568084110982404,
+                    "3M": -12.22290446215058,
+                    "6M": -2.8612531813490656,
+                    "YTD": -22.695229384008123
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 10.0,
+                "volume": 4167500,
+                "close": 57.02000045776367
+            },
+            {
+                "ticker": "FOX",
+                "market_cap": 24393117696,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.515443483189837,
+                    "1W": 1.6734785377810173,
+                    "1M": -20.192456047370065,
+                    "3M": -10.714286412709434,
+                    "6M": -2.76918166819312,
+                    "YTD": -20.785323339551205
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 10.0,
+                "volume": 1679300,
+                "close": 52.25
+            },
+            {
+                "ticker": "LYV",
+                "market_cap": 37773479936,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 3.308771264404685,
+                    "1W": 5.036484340207852,
+                    "1M": 16.43403503809236,
+                    "3M": 23.863546715096348,
+                    "6M": 0.4756048804753278,
+                    "YTD": 11.946872825010848
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 100.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 67.0,
+                "volume": 6894800,
+                "close": 162.6699981689453
+            },
+            {
+                "ticker": "MTCH",
+                "market_cap": 7659002880,
+                "market_cap_category": "Mid-Cap",
+                "performance": {
+                    "1D": 3.714562951484298,
+                    "1W": 6.383689313307958,
+                    "1M": 2.627762534567812,
+                    "3M": 1.6748479926907571,
+                    "6M": -13.0143699636766,
+                    "YTD": 0.8740051075056928
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 27.5,
+                "volume": 3031200,
+                "close": 31.829999923706055
+            },
+            {
+                "ticker": "META",
+                "market_cap": 1658528202752,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.6873884663457552,
+                    "1W": 0.9002594001194948,
+                    "1M": 6.966188599781116,
+                    "3M": 9.788470074268954,
+                    "6M": -12.181349456627704,
+                    "YTD": 0.8071831947191511
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 7.5,
+                "volume": 14166900,
+                "close": 655.6599731445312
+            },
+            {
+                "ticker": "NFLX",
+                "market_cap": 333709443072,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 2.168828790838068,
+                    "1W": 3.7041886843991256,
+                    "1M": -7.837397368287926,
+                    "3M": -31.045665094111246,
+                    "6M": -35.19022198567394,
+                    "YTD": -13.539949427485157
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 11.25,
+                "volume": 32368200,
+                "close": 78.66999816894531
+            },
+            {
+                "ticker": "NWSA",
+                "market_cap": 13748874240,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.2414340779178024,
+                    "1W": 5.58035723789006,
+                    "1M": -9.491005058890211,
+                    "3M": -6.55867199699406,
+                    "6M": -19.855921248238687,
+                    "YTD": -9.698361449914112
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 10.0,
+                "volume": 6507400,
+                "close": 23.649999618530273
+            },
+            {
+                "ticker": "NWS",
+                "market_cap": 14716454912,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.3745654664450482,
+                    "1W": 3.4684310013283057,
+                    "1M": -12.231407480791582,
+                    "3M": -7.780484915714936,
+                    "6M": -22.1739668144334,
+                    "YTD": -10.816261911959044
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 3.75,
+                "volume": 1091900,
+                "close": 26.549999237060547
+            },
+            {
+                "ticker": "OMC",
+                "market_cap": 26421661696,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 2.8663202679091877,
+                    "1W": 23.769891914826147,
+                    "1M": 5.955714171701957,
+                    "3M": 14.337430866697037,
+                    "6M": 9.177638315405435,
+                    "YTD": 2.3856400008443748
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 50.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 100.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 62.5,
+                "volume": 17279200,
+                "close": 83.26000213623047
+            }
+        ],
+        "Financials": [
+            {
+                "ticker": "AFL",
+                "market_cap": 59764711424,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.1262829185938341,
+                    "1W": -1.0736512541970993,
+                    "1M": 5.596774446526466,
+                    "3M": 3.1083360715264092,
+                    "6M": 6.7969253977658735,
+                    "YTD": 3.9875288492071115
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 37.5,
+                "volume": 1738300,
+                "close": 114.02999877929688
+            },
+            {
+                "ticker": "ALL",
+                "market_cap": 54003253248,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.550041274265807,
+                    "1W": -0.09198414196938255,
+                    "1M": 6.563044105510829,
+                    "3M": -1.2461764344230575,
+                    "6M": -2.4594390668991255,
+                    "YTD": 1.251097881138065
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 55.0,
+                "volume": 1226200,
+                "close": 206.3699951171875
+            },
+            {
+                "ticker": "AXP",
+                "market_cap": 238466662400,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.0302054114039467,
+                    "1W": 0.962432263758454,
+                    "1M": -3.7345994891248084,
+                    "3M": 1.8461205574966073,
+                    "6M": 12.784736413162086,
+                    "YTD": -7.123123313920847
+                },
+                "scores": {
+                    "trend": 50.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 17.5,
+                "volume": 2738900,
+                "close": 346.17999267578125
+            },
+            {
+                "ticker": "AIG",
+                "market_cap": 43403501568,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.1315080657777727,
+                    "1W": 2.081217418952693,
+                    "1M": 11.89317446703017,
+                    "3M": 4.919741129629731,
+                    "6M": -1.4457704740523132,
+                    "YTD": -4.544908454052112
+                },
+                "scores": {
+                    "trend": 50.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 43.75,
+                "volume": 4609900,
+                "close": 80.44000244140625
+            },
+            {
+                "ticker": "AMP",
+                "market_cap": 43822694400,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.1566348974127982,
+                    "1W": 0.9394424915719106,
+                    "1M": -6.087540344532587,
+                    "3M": 6.836797227833751,
+                    "6M": -6.068426706685568,
+                    "YTD": -4.189390917952926
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 10.0,
+                "volume": 538200,
+                "close": 471.69000244140625
+            },
+            {
+                "ticker": "AON",
+                "market_cap": 69869010944,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.2374405057768846,
+                    "1W": 3.364182459975577,
+                    "1M": -2.310975542650873,
+                    "3M": -6.733804052706957,
+                    "6M": -13.0828857421875,
+                    "YTD": -5.577012897482227
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 3.75,
+                "volume": 1265000,
+                "close": 325.07000732421875
+            },
+            {
+                "ticker": "APO",
+                "market_cap": 69488189440,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.1661356477249136,
+                    "1W": -4.116580800817811,
+                    "1M": -13.847171149079552,
+                    "3M": -3.306752858645233,
+                    "6M": -10.831745474688098,
+                    "YTD": -18.007608622046025
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 5.0,
+                "volume": 6301800,
+                "close": 119.72000122070312
+            },
+            {
+                "ticker": "ACGL",
+                "market_cap": 35715031040,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.15253358904296638,
+                    "1W": -1.3620436966797196,
+                    "1M": 6.729517952557535,
+                    "3M": 7.2992666754716256,
+                    "6M": 6.085740789256129,
+                    "YTD": 4.9328757972619695
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 42.5,
+                "volume": 2074100,
+                "close": 98.48999786376953
+            },
+            {
+                "ticker": "ARES",
+                "market_cap": 40350248960,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -5.152100213282256,
+                    "1W": -8.048378813501008,
+                    "1M": -24.13452849551194,
+                    "3M": -13.126568452666687,
+                    "6M": -30.28771963402541,
+                    "YTD": -25.954426557870242
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 5.0,
+                "volume": 5807700,
+                "close": 123.16000366210938
+            },
+            {
+                "ticker": "AJG",
+                "market_cap": 55637872640,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.851765650932675,
+                    "1W": 5.722936473916441,
+                    "1M": -13.423707245050915,
+                    "3M": -16.066743660108266,
+                    "6M": -28.113929287471045,
+                    "YTD": -15.425783395767212
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 5.0,
+                "volume": 2064000,
+                "close": 216.50999450683594
+            },
+            {
+                "ticker": "AIZ",
+                "market_cap": 11318505472,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.623541809198739,
+                    "1W": 5.008077198228338,
+                    "1M": -5.460553728304642,
+                    "3M": 0.06343994238673044,
+                    "6M": 5.355331053369122,
+                    "YTD": -5.257731300985894
+                },
+                "scores": {
+                    "trend": 50.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 20.0,
+                "volume": 391700,
+                "close": 224.30999755859375
+            },
+            {
+                "ticker": "BAC",
+                "market_cap": 387470426112,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.5495564013865344,
+                    "1W": 1.028181475286943,
+                    "1M": 1.901289964027412,
+                    "3M": 3.2837729134735523,
+                    "6M": 10.92534891452845,
+                    "YTD": -5.165325022770572
+                },
+                "scores": {
+                    "trend": 50.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 27.5,
+                "volume": 33549000,
+                "close": 53.060001373291016
+            },
+            {
+                "ticker": "BRK-B",
+                "market_cap": 1074784239616,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.2535537005342142,
+                    "1W": -0.36199226480329255,
+                    "1M": 2.9700568450854576,
+                    "3M": -1.2233049090722952,
+                    "6M": 1.948109125385482,
+                    "YTD": 0.2717130093451905
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 37.5,
+                "volume": 4324500,
+                "close": 498.20001220703125
+            },
+            {
+                "ticker": "BLK",
+                "market_cap": 169679241216,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.1430882857976985,
+                    "1W": 3.600694333223747,
+                    "1M": -3.0332013723480675,
+                    "3M": 7.83241133969428,
+                    "6M": -2.1541146858181386,
+                    "YTD": 0.7907355898628523
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 46.25,
+                "volume": 567700,
+                "close": 1093.6400146484375
+            },
+            {
+                "ticker": "BX",
+                "market_cap": 149118271488,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -3.570296928192026,
+                    "1W": -6.550055752135283,
+                    "1M": -21.34419856903268,
+                    "3M": -10.144687897371922,
+                    "6M": -24.747221866883866,
+                    "YTD": -22.7459431306829
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 50.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 80.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 18.0,
+                "volume": 14609700,
+                "close": 121.2699966430664
+            }
+        ],
+        "Healthcare": [
+            {
+                "ticker": "ABT",
+                "market_cap": 195296903168,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.017823908219317446,
+                    "1W": 0.6638538222533839,
+                    "1M": -7.057072836544097,
+                    "3M": -13.247384814517748,
+                    "6M": -14.467001356539624,
+                    "YTD": -9.18882509728453
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 20.0,
+                "volume": 7098500,
+                "close": 112.20999908447266
+            },
+            {
+                "ticker": "ABBV",
+                "market_cap": 397325729792,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.2050329585753984,
+                    "1W": -1.1824186555631868,
+                    "1M": 4.006478790953243,
+                    "3M": -3.1005410740927135,
+                    "6M": 9.133394883367032,
+                    "YTD": -1.1736227113384503
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 50.0,
+                "volume": 6830300,
+                "close": 224.80999755859375
+            },
+            {
+                "ticker": "A",
+                "market_cap": 34842013696,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -2.7228074336899675,
+                    "1W": -1.5855187148355498,
+                    "1M": -12.069830600918104,
+                    "3M": -14.405130564895622,
+                    "6M": 3.5739118011545368,
+                    "YTD": -10.75052174277267
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 50.0,
+                    "momentum": 0.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 100.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 37.5,
+                "volume": 4242900,
+                "close": 122.9000015258789
+            },
+            {
+                "ticker": "ALGN",
+                "market_cap": 13773859840,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.32735501370471326,
+                    "1W": 3.350377266213584,
+                    "1M": 11.809360214540643,
+                    "3M": 43.64983824160795,
+                    "6M": 32.34433893938133,
+                    "YTD": 21.784275946347112
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 48.75,
+                "volume": 1037300,
+                "close": 190.02000427246094
+            },
+            {
+                "ticker": "AMGN",
+                "market_cap": 202015604736,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.1997336884154461,
+                    "1W": 3.0438781623028555,
+                    "1M": 9.821505068234385,
+                    "3M": 10.47940534519956,
+                    "6M": 29.23632346799941,
+                    "YTD": 15.171125584633907
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 48.75,
+                "volume": 2911700,
+                "close": 374.75
+            },
+            {
+                "ticker": "BAX",
+                "market_cap": 11102695424,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.1246474667389326,
+                    "1W": 15.339395936236036,
+                    "1M": 9.487574460145797,
+                    "3M": 18.960980654088328,
+                    "6M": -10.412424161466653,
+                    "YTD": 10.666666275415665
+                },
+                "scores": {
+                    "trend": 50.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 35.0,
+                "volume": 7378800,
+                "close": 21.579999923706055
+            },
+            {
+                "ticker": "BDX",
+                "market_cap": 67165888512,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.6002620427527066,
+                    "1W": 4.262978423672071,
+                    "1M": 14.373881710572034,
+                    "3M": 23.277489537405486,
+                    "6M": 19.672813854630316,
+                    "YTD": 20.9685453599226
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 55.75,
+                "volume": 2740000,
+                "close": 185.38999938964844
+            },
+            {
+                "ticker": "TECH",
+                "market_cap": 8999193600,
+                "market_cap_category": "Mid-Cap",
+                "performance": {
+                    "1D": -1.2532180982597907,
+                    "1W": -3.262701558720128,
+                    "1M": -19.30877989346003,
+                    "3M": -0.9503197489724888,
+                    "6M": 6.1569829764687185,
+                    "YTD": -3.4410932973357893
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 7.5,
+                "volume": 2643900,
+                "close": 57.52000045776367
+            },
+            {
+                "ticker": "BIIB",
+                "market_cap": 28182040576,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.026032409038496903,
+                    "1W": -1.7749366857816498,
+                    "1M": 11.244354194850022,
+                    "3M": 13.741631639297161,
+                    "6M": 38.1610124396617,
+                    "YTD": 7.991221949040349
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 45.0,
+                "volume": 799200,
+                "close": 192.02999877929688
+            },
+            {
+                "ticker": "BSX",
+                "market_cap": 110603616256,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -1.505545920853396,
+                    "1W": 0.6206139603709994,
+                    "1M": -18.678440109501903,
+                    "3M": -24.83370196180474,
+                    "6M": -29.67468205101716,
+                    "YTD": -21.254352706163424
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 2.5,
+                "volume": 12592400,
+                "close": 74.58000183105469
+            },
+            {
+                "ticker": "BMY",
+                "market_cap": 123532492800,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.5970159451184622,
+                    "1W": 1.3364504325150364,
+                    "1M": 11.3027520136002,
+                    "3M": 30.422563675059838,
+                    "6M": 28.927553580241465,
+                    "YTD": 13.468015125781546
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 47.5,
+                "volume": 9598800,
+                "close": 60.65999984741211
+            },
+            {
+                "ticker": "CAH",
+                "market_cap": 52814327808,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.75417847728433,
+                    "1W": 4.361575834323577,
+                    "1M": 7.660575203717679,
+                    "3M": 8.711164909875697,
+                    "6M": 47.58704724964866,
+                    "YTD": 9.09974776862834
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 48.75,
+                "volume": 1072600,
+                "close": 224.44000244140625
+            },
+            {
+                "ticker": "COR",
+                "market_cap": 70241140736,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.5485787923091383,
+                    "1W": 3.0303017109297534,
+                    "1M": 2.828188897613468,
+                    "3M": 0.016077813234812912,
+                    "6M": 19.296972896540794,
+                    "YTD": 6.73655679138708
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 53.75,
+                "volume": 1046700,
+                "close": 361.0799865722656
+            },
+            {
+                "ticker": "CNC",
+                "market_cap": 21263572992,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -1.0073228563069574,
+                    "1W": 10.362433235496118,
+                    "1M": -4.463094825404267,
+                    "3M": 17.086383214588444,
+                    "6M": 47.07483754936319,
+                    "YTD": 3.494502014905259
+                },
+                "scores": {
+                    "trend": 50.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 35.0,
+                "volume": 5017900,
+                "close": 43.2400016784668
+            },
+            {
+                "ticker": "CRL",
+                "market_cap": 8313477632,
+                "market_cap_category": "Mid-Cap",
+                "performance": {
+                    "1D": 2.849483998571858,
+                    "1W": 6.412997557959413,
+                    "1M": -25.51043127997196,
+                    "3M": 3.9315815158071596,
+                    "6M": 5.852861405390106,
+                    "YTD": -16.549748198317822
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 17.5,
+                "volume": 1599400,
+                "close": 168.9199981689453
+            }
+        ],
+        "Industrials": [
+            {
+                "ticker": "MMM",
+                "market_cap": 87990501376,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.2178094333058727,
+                    "1W": -3.894612092934741,
+                    "1M": 7.6530675455289705,
+                    "3M": 1.2181837360956604,
+                    "6M": 9.408324628555913,
+                    "YTD": 3.701396795862872
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 45.0,
+                "volume": 2292400,
+                "close": 167.05999755859375
+            },
+            {
+                "ticker": "AOS",
+                "market_cap": 10760338432,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.15445374361778433,
+                    "1W": -2.273304603805709,
+                    "1M": 8.242968227207333,
+                    "3M": 23.3744363223436,
+                    "6M": 9.421090402998345,
+                    "YTD": 14.453626455413954
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 37.5,
+                "volume": 1124500,
+                "close": 77.80999755859375
+            },
+            {
+                "ticker": "ALLE",
+                "market_cap": 13949220864,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.5644133760613509,
+                    "1W": -9.012344463315754,
+                    "1M": -2.2546451549758664,
+                    "3M": 0.664302487598386,
+                    "6M": -3.7859035847740614,
+                    "YTD": 0.7643997884195551
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 22.5,
+                "volume": 890700,
+                "close": 162.13999938964844
+            },
+            {
+                "ticker": "AME",
+                "market_cap": 53930057728,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.3265282521314447,
+                    "1W": 2.107653161036036,
+                    "1M": 5.93866094121711,
+                    "3M": 23.15635195169839,
+                    "6M": 27.77148613845729,
+                    "YTD": 11.652479290575018
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 51.25,
+                "volume": 1466500,
+                "close": 233.50999450683594
+            },
+            {
+                "ticker": "ADP",
+                "market_cap": 86742122496,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.6945409045338322,
+                    "1W": 2.1480255108689073,
+                    "1M": -16.545387224962973,
+                    "3M": -13.550261163531616,
+                    "6M": -29.787549919979174,
+                    "YTD": -15.189023616125368
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 3.75,
+                "volume": 2511100,
+                "close": 214.47000122070312
+            },
+            {
+                "ticker": "AXON",
+                "market_cap": 34468622336,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -1.634473960574543,
+                    "1W": -0.43596840529775244,
+                    "1M": -28.896353353197973,
+                    "3M": -18.70843475938128,
+                    "6M": -42.97336076060958,
+                    "YTD": -22.99050594346679
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 7.5,
+                "volume": 648000,
+                "close": 433.9100036621094
+            },
+            {
+                "ticker": "BA",
+                "market_cap": 182224076800,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.7188429619221046,
+                    "1W": -3.0582858314417365,
+                    "1M": -7.2139832913000195,
+                    "3M": 22.359327535052646,
+                    "6M": 2.841061874316594,
+                    "YTD": 1.8703053198085233
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 32.5,
+                "volume": 5451300,
+                "close": 232.02999877929688
+            },
+            {
+                "ticker": "BR",
+                "market_cap": 20666857472,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.45967738932615665,
+                    "1W": 3.8423200591626046,
+                    "1M": -14.421078535587096,
+                    "3M": -20.970612172104914,
+                    "6M": -31.847387788767247,
+                    "YTD": -19.707895272675326
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 11.25,
+                "volume": 1103900,
+                "close": 177.02000427246094
+            },
+            {
+                "ticker": "BLDR",
+                "market_cap": 12224684032,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.7808249250447239,
+                    "1W": -8.31052224303567,
+                    "1M": -12.829204133589364,
+                    "3M": 12.11968028658049,
+                    "6M": -16.72316154293197,
+                    "YTD": 5.658038759191933
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 17.5,
+                "volume": 1622700,
+                "close": 110.55000305175781
+            },
+            {
+                "ticker": "CHRW",
+                "market_cap": 22545074176,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 2.629728955659125,
+                    "1W": 13.279293683035897,
+                    "1M": 5.9538367627754285,
+                    "3M": 25.79643752026202,
+                    "6M": 58.3668387805988,
+                    "YTD": 16.08844132757056
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 42.5,
+                "volume": 2326800,
+                "close": 190.05999755859375
+            },
+            {
+                "ticker": "CARR",
+                "market_cap": 53611028480,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.9389721173025505,
+                    "1W": -1.1558021375473206,
+                    "1M": 11.084166132901961,
+                    "3M": 23.851434990378152,
+                    "6M": -3.257300502714724,
+                    "YTD": 20.357118979483353
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 30.0,
+                "volume": 4356300,
+                "close": 64.13999938964844
+            },
+            {
+                "ticker": "CAT",
+                "market_cap": 355542794240,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.10388006154476329,
+                    "1W": 0.19122133340116002,
+                    "1M": 17.719790586373662,
+                    "3M": 39.247650256450065,
+                    "6M": 81.57955620622462,
+                    "YTD": 27.25683264354218
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 47.5,
+                "volume": 2049200,
+                "close": 759.739990234375
+            },
+            {
+                "ticker": "CTAS",
+                "market_cap": 80381378560,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.0355119660136816,
+                    "1W": 2.233577772909454,
+                    "1M": 2.594567755834447,
+                    "3M": 9.009870048136111,
+                    "6M": -7.275734578436522,
+                    "YTD": 8.437925223599004
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 41.25,
+                "volume": 1800400,
+                "close": 200.02000427246094
+            },
+            {
+                "ticker": "FIX",
+                "market_cap": 51589595136,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 6.458585217256216,
+                    "1W": 12.477497153927542,
+                    "1M": 27.371949518183797,
+                    "3M": 58.76719573213162,
+                    "6M": 114.82528368395259,
+                    "YTD": 45.6926745772438
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 100.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 100.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 77.0,
+                "volume": 918200,
+                "close": 1462.22998046875
+            },
+            {
+                "ticker": "CPRT",
+                "market_cap": 35313283072,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -3.1075748638107537,
+                    "1W": -0.6535993205018779,
+                    "1M": -11.692088284890557,
+                    "3M": -11.713456409328467,
+                    "6M": -23.37744365769931,
+                    "YTD": -3.4154114373651865
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 50.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 100.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 20.0,
+                "volume": 25522100,
+                "close": 36.47999954223633
+            }
+        ],
+        "Energy": [
+            {
+                "ticker": "APA",
+                "market_cap": 10397274112,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.0687773652549685,
+                    "1W": 7.9494776507558225,
+                    "1M": 10.536319718342149,
+                    "3M": 17.72206797213392,
+                    "6M": 45.84454151581628,
+                    "YTD": 15.679569043406957
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 50.0,
+                "volume": 7620000,
+                "close": 29.059999465942383
+            },
+            {
+                "ticker": "BKR",
+                "market_cap": 61478191104,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.5594665619169683,
+                    "1W": 1.7179998751289487,
+                    "1M": 16.523002642063332,
+                    "3M": 29.93066132708399,
+                    "6M": 46.42091598850682,
+                    "YTD": 32.466441058608766
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 80.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 64.5,
+                "volume": 4399000,
+                "close": 62.209999084472656
+            },
+            {
+                "ticker": "CVX",
+                "market_cap": 367741108224,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.46000980037394684,
+                    "1W": 1.8252549023848108,
+                    "1M": 11.395234545690116,
+                    "3M": 20.901747413192776,
+                    "6M": 22.571180605868328,
+                    "YTD": 19.13359477284383
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 40.0,
+                "volume": 9563500,
+                "close": 183.92999267578125
+            },
+            {
+                "ticker": "COP",
+                "market_cap": 136583938048,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.9499037488845454,
+                    "1W": 0.5054204319057418,
+                    "1M": 14.65790012691412,
+                    "3M": 24.208471910620993,
+                    "6M": 18.477932593774526,
+                    "YTD": 15.191478142113867
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 47.5,
+                "volume": 6822800,
+                "close": 110.52999877929688
+            },
+            {
+                "ticker": "CTRA",
+                "market_cap": 23815888896,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -1.3560340909555701,
+                    "1W": 1.6244314127547586,
+                    "1M": 16.93458200615143,
+                    "3M": 19.52617728488449,
+                    "6M": 35.796802561766214,
+                    "YTD": 17.593985857368615
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 47.5,
+                "volume": 7971300,
+                "close": 31.280000686645508
+            },
+            {
+                "ticker": "DVN",
+                "market_cap": 27845844992,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.6045688730097867,
+                    "1W": 0.9781626800071157,
+                    "1M": 17.5894023566846,
+                    "3M": 24.5491336415227,
+                    "6M": 33.17433157748549,
+                    "YTD": 17.21679599064931
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 52.5,
+                "volume": 14056000,
+                "close": 44.38999938964844
+            },
+            {
+                "ticker": "FANG",
+                "market_cap": 50431369216,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.7383203280220428,
+                    "1W": 5.1308066132113845,
+                    "1M": 15.039212095971202,
+                    "3M": 17.669469415860142,
+                    "6M": 28.54315526387139,
+                    "YTD": 15.537612405113347
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 100.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 80.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 78.0,
+                "volume": 3473900,
+                "close": 176.00999450683594
+            },
+            {
+                "ticker": "EOG",
+                "market_cap": 67200868352,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.6377661241709647,
+                    "1W": 4.437847623801251,
+                    "1M": 13.91022522423923,
+                    "3M": 13.400830187262752,
+                    "6M": 5.987113496376496,
+                    "YTD": 15.83228311992078
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 46.25,
+                "volume": 6052400,
+                "close": 123.08000183105469
+            },
+            {
+                "ticker": "EQT",
+                "market_cap": 37756284928,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.221347727363965,
+                    "1W": 6.104476673316715,
+                    "1M": 10.652081908586325,
+                    "3M": 3.268998487400758,
+                    "6M": 18.524169430163408,
+                    "YTD": 13.487732404520273
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 60.0,
+                "volume": 12240500,
+                "close": 60.5
+            },
+            {
+                "ticker": "EXE",
+                "market_cap": 25736615936,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 4.0539231067218235,
+                    "1W": 4.466352482739453,
+                    "1M": -1.3150707227454337,
+                    "3M": -7.767160992722512,
+                    "6M": 15.513449291210248,
+                    "YTD": -1.5578018919258734
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 43.75,
+                "volume": 5913200,
+                "close": 108.05999755859375
+            },
+            {
+                "ticker": "XOM",
+                "market_cap": 621104136192,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -2.4441958081538555,
+                    "1W": -1.7674875114647013,
+                    "1M": 10.965996986993302,
+                    "3M": 24.558240605892337,
+                    "6M": 37.803800656285944,
+                    "YTD": 20.88191906365732
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 52.5,
+                "volume": 25899900,
+                "close": 147.27999877929688
+            },
+            {
+                "ticker": "HAL",
+                "market_cap": 29549510656,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.7350815080144776,
+                    "1W": 2.391366791865272,
+                    "1M": 5.245803261337404,
+                    "3M": 31.88955977755589,
+                    "6M": 68.72007854645071,
+                    "YTD": 18.614865398215404
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 51.25,
+                "volume": 11381100,
+                "close": 35.11000061035156
+            },
+            {
+                "ticker": "KMI",
+                "market_cap": 72817909760,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.5838925057261488,
+                    "1W": 3.281789178453979,
+                    "1M": 15.631828178648771,
+                    "3M": 21.991790978778194,
+                    "6M": 25.786532984580035,
+                    "YTD": 19.26228123885822
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 55.75,
+                "volume": 15816400,
+                "close": 32.72999954223633
+            },
+            {
+                "ticker": "MPC",
+                "market_cap": 59146547200,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.14760181418589735,
+                    "1W": -0.1383441313364714,
+                    "1M": 11.418788837680152,
+                    "3M": -0.4349944406695905,
+                    "6M": 19.85387802751603,
+                    "YTD": 19.744493459160335
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 45.0,
+                "volume": 1714000,
+                "close": 196.75999450683594
+            },
+            {
+                "ticker": "OXY",
+                "market_cap": 51073310720,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.6015939853186343,
+                    "1W": 13.959108023350408,
+                    "1M": 19.1450290792867,
+                    "3M": 22.627409542338103,
+                    "6M": 18.409493779416028,
+                    "YTD": 22.321847206346405
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 62.0,
+                "volume": 16521200,
+                "close": 51.84000015258789
+            }
+        ],
+        "Materials": [
+            {
+                "ticker": "APD",
+                "market_cap": 62606413824,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.16386130417421807,
+                    "1W": -3.5403112604524014,
+                    "1M": 6.8678531147626165,
+                    "3M": 12.322489693893772,
+                    "6M": -2.4853172958508263,
+                    "YTD": 12.260945943789027
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 35.0,
+                "volume": 1851000,
+                "close": 281.17999267578125
+            },
+            {
+                "ticker": "ALB",
+                "market_cap": 19847827456,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.0059346277647437445,
+                    "1W": 5.971186013028873,
+                    "1M": -6.464511578070326,
+                    "3M": 39.16165162701116,
+                    "6M": 117.41537328766212,
+                    "YTD": 17.01522041228099
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 45.0,
+                "volume": 1860300,
+                "close": 168.4199981689453
+            },
+            {
+                "ticker": "AMCR",
+                "market_cap": 23328688128,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.9382251621843267,
+                    "1W": 1.5078407211326783,
+                    "1M": 19.0801883524701,
+                    "3M": 19.361708248520948,
+                    "6M": 17.829646386008204,
+                    "YTD": 20.071349808652787
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 44.5,
+                "volume": 6470500,
+                "close": 50.4900016784668
+            },
+            {
+                "ticker": "AVY",
+                "market_cap": 15221008384,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.7148718805589949,
+                    "1W": 0.7005855769917284,
+                    "1M": 5.945017131350864,
+                    "3M": 17.347661757626756,
+                    "6M": 13.32809488637596,
+                    "YTD": 7.9368535045868365
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 57.5,
+                "volume": 650200,
+                "close": 196.9199981689453
+            },
+            {
+                "ticker": "BALL",
+                "market_cap": 18106064896,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.7572315754104945,
+                    "1W": -0.2847758362259929,
+                    "1M": 18.973535332202022,
+                    "3M": 40.54226024933373,
+                    "6M": 26.208356634976433,
+                    "YTD": 24.704781034940627
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 30.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 34.5,
+                "volume": 2157200,
+                "close": 66.52999877929688
+            },
+            {
+                "ticker": "CF",
+                "market_cap": 15740532736,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -2.292377639537723,
+                    "1W": 3.7582708791740504,
+                    "1M": 6.356182803442688,
+                    "3M": 20.422525224525792,
+                    "6M": 15.043331898480325,
+                    "YTD": 21.92536480231507
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 100.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 80.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 76.75,
+                "volume": 3580700,
+                "close": 97.18000030517578
+            },
+            {
+                "ticker": "CTVA",
+                "market_cap": 51565105152,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.9218373350014587,
+                    "1W": 2.9685561059554164,
+                    "1M": 6.75712643372679,
+                    "3M": 18.626546120008207,
+                    "6M": 5.126398412504887,
+                    "YTD": 12.618056600962973
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 100.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 73.75,
+                "volume": 5560900,
+                "close": 76.30999755859375
+            },
+            {
+                "ticker": "CRH",
+                "market_cap": 82867765248,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -1.1554681432191012,
+                    "1W": 0.9686629679990834,
+                    "1M": 2.5123974508490443,
+                    "3M": 13.934047750744247,
+                    "6M": 11.979782138317477,
+                    "YTD": -1.8981346722063648
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 35.0,
+                "volume": 4671200,
+                "close": 124.04000091552734
+            },
+            {
+                "ticker": "DOW",
+                "market_cap": 21899141120,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -2.7715799579520457,
+                    "1W": -6.523739566832674,
+                    "1M": 7.4269645254636085,
+                    "3M": 41.75467013560061,
+                    "6M": 30.485841778902767,
+                    "YTD": 25.751956663028007
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 35.0,
+                "volume": 17887200,
+                "close": 30.520000457763672
+            },
+            {
+                "ticker": "DD",
+                "market_cap": 21120546816,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.33837214025845636,
+                    "1W": 1.9826007205865077,
+                    "1M": 16.20562149885238,
+                    "3M": 30.92229991337023,
+                    "6M": 63.449138902674896,
+                    "YTD": 23.34230771923193
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 47.5,
+                "volume": 4865300,
+                "close": 50.40999984741211
+            },
+            {
+                "ticker": "ECL",
+                "market_cap": 86267346944,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.0498351036908222,
+                    "1W": 1.1540128346566176,
+                    "1M": 8.682919882247898,
+                    "3M": 19.299391983023977,
+                    "6M": 7.103069799090302,
+                    "YTD": 15.808706479570281
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 54.5,
+                "volume": 1333100,
+                "close": 304.1600036621094
+            },
+            {
+                "ticker": "FCX",
+                "market_cap": 92387770368,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 2.8288263571988157,
+                    "1W": 3.70727818894606,
+                    "1M": 6.206659612394529,
+                    "3M": 61.25077416193086,
+                    "6M": 56.69731241625746,
+                    "YTD": 24.206266272007205
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 51.25,
+                "volume": 14672800,
+                "close": 64.33999633789062
+            },
+            {
+                "ticker": "IFF",
+                "market_cap": 20859205632,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.28179778141850836,
+                    "1W": -0.13497007405099692,
+                    "1M": 14.151466908866938,
+                    "3M": 24.07694946992562,
+                    "6M": 24.691921379668578,
+                    "YTD": 19.638396075375685
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 42.0,
+                "volume": 1714900,
+                "close": 81.38999938964844
+            },
+            {
+                "ticker": "IP",
+                "market_cap": 24749154304,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.02133658003195684,
+                    "1W": -4.677647595507082,
+                    "1M": 9.534933229872635,
+                    "3M": 27.191318514708996,
+                    "6M": 0.9355857427073897,
+                    "YTD": 16.447202315241654
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 37.5,
+                "volume": 5897500,
+                "close": 46.869998931884766
+            },
+            {
+                "ticker": "LIN",
+                "market_cap": 232818278400,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.3058343239980463,
+                    "1W": 5.001485671594553,
+                    "1M": 13.010129251857085,
+                    "3M": 20.162662633090296,
+                    "6M": 3.6421168074412993,
+                    "YTD": 15.706934519093702
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 62.0,
+                "volume": 3202400,
+                "close": 496.510009765625
+            }
+        ],
+        "Real Estate": [
+            {
+                "ticker": "ARE",
+                "market_cap": 9297564672,
+                "market_cap_category": "Mid-Cap",
+                "performance": {
+                    "1D": 0.4681647806299108,
+                    "1W": 6.44841250318459,
+                    "1M": -8.21214572182523,
+                    "3M": 7.170022442111035,
+                    "6M": -28.599074185952766,
+                    "YTD": 9.556871938972323
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 15.0,
+                "volume": 1270500,
+                "close": 53.650001525878906
+            },
+            {
+                "ticker": "AMT",
+                "market_cap": 87708139520,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.3637125190858732,
+                    "1W": -0.4676151078145042,
+                    "1M": 5.129931797485712,
+                    "3M": 4.176585984830869,
+                    "6M": -8.926097810710806,
+                    "YTD": 7.156747304593446
+                },
+                "scores": {
+                    "trend": 50.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 30.0,
+                "volume": 2484100,
+                "close": 187.30999755859375
+            },
+            {
+                "ticker": "AVB",
+                "market_cap": 25118941184,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.0957444504825376,
+                    "1W": 1.2210427118123457,
+                    "1M": -0.8717103033400427,
+                    "3M": 0.9492774009356799,
+                    "6M": -5.189325143978478,
+                    "YTD": -1.7065613386341167
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 30.0,
+                "volume": 681500,
+                "close": 177.39999389648438
+            },
+            {
+                "ticker": "BXP",
+                "market_cap": 10774308864,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -2.153648547570292,
+                    "1W": 3.0641635054039282,
+                    "1M": -7.659637818421337,
+                    "3M": -11.03500641399989,
+                    "6M": -6.551184589804468,
+                    "YTD": -10.232967646619763
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 3.75,
+                "volume": 2482800,
+                "close": 60.880001068115234
+            },
+            {
+                "ticker": "CPT",
+                "market_cap": 11405579264,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -1.2800436840639444,
+                    "1W": -0.2605195384684949,
+                    "1M": -1.1343754989133583,
+                    "3M": 6.124253336256784,
+                    "6M": 0.854218901372382,
+                    "YTD": -2.695834864359931
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 7.5,
+                "volume": 1080500,
+                "close": 107.19999694824219
+            },
+            {
+                "ticker": "CBRE",
+                "market_cap": 43749142528,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -1.461229237144427,
+                    "1W": 7.873492679520864,
+                    "1M": -13.670796698065658,
+                    "3M": -2.0455805482163187,
+                    "6M": -8.59860864582513,
+                    "YTD": -8.227734398962413
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 12.5,
+                "volume": 2114300,
+                "close": 147.00999450683594
+            },
+            {
+                "ticker": "CSGP",
+                "market_cap": 21136041984,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.6303224822414843,
+                    "1W": 10.748390592480192,
+                    "1M": -23.004475040028705,
+                    "3M": -25.355484576769,
+                    "6M": -43.490086196164576,
+                    "YTD": -24.082817661077893
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 5.0,
+                "volume": 7901800,
+                "close": 49.869998931884766
+            },
+            {
+                "ticker": "CCI",
+                "market_cap": 38326509568,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.7809655299954226,
+                    "1W": 0.22776971096401627,
+                    "1M": 0.9636388492943795,
+                    "3M": -2.1850971348836374,
+                    "6M": -12.449711688442584,
+                    "YTD": -0.7778972218165253
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 25.0,
+                "volume": 3287000,
+                "close": 88.01000213623047
+            },
+            {
+                "ticker": "DLR",
+                "market_cap": 61453643776,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.6896558862613792,
+                    "1W": -2.5678026429499163,
+                    "1M": 10.490561431308961,
+                    "3M": 10.942413139452507,
+                    "6M": 7.869290500532163,
+                    "YTD": 13.319998748037165
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 45.0,
+                "volume": 1379600,
+                "close": 175.67999267578125
+            },
+            {
+                "ticker": "EQIX",
+                "market_cap": 91191377920,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.0979985112695934,
+                    "1W": -3.1068944551274003,
+                    "1M": 16.67295320300305,
+                    "3M": 19.83653661258342,
+                    "6M": 20.281125609843496,
+                    "YTD": 21.462878792840872
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 47.0,
+                "volume": 993600,
+                "close": 928.1099853515625
+            },
+            {
+                "ticker": "EQR",
+                "market_cap": 24636973056,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.7137204891113534,
+                    "1W": -0.7137204891113534,
+                    "1M": 2.0374898632267775,
+                    "3M": 6.954730257300657,
+                    "6M": -0.7813022897937819,
+                    "YTD": 0.9189097308421386
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 12.5,
+                "volume": 3988600,
+                "close": 62.599998474121094
+            },
+            {
+                "ticker": "ESS",
+                "market_cap": 17588973568,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.03537774604835554,
+                    "1W": 1.2571624977865468,
+                    "1M": -1.0573729066914692,
+                    "3M": 1.3662258692508633,
+                    "6M": -0.9501944093664234,
+                    "YTD": -0.9225778507662122
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 25.0,
+                "volume": 528600,
+                "close": 254.52000427246094
+            },
+            {
+                "ticker": "EXR",
+                "market_cap": 33849622528,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 4.558836216756071,
+                    "1W": 5.826523399946678,
+                    "1M": 5.040573458499755,
+                    "3M": 18.622472497535863,
+                    "6M": 11.954759228953789,
+                    "YTD": 16.6297614539947
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 100.0,
+                    "momentum": 100.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 80.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 83.0,
+                "volume": 2266000,
+                "close": 152.75
+            },
+            {
+                "ticker": "FRT",
+                "market_cap": 9327222784,
+                "market_cap_category": "Mid-Cap",
+                "performance": {
+                    "1D": 1.4923908195621216,
+                    "1W": 2.5775627190856203,
+                    "1M": 4.870191204721319,
+                    "3M": 12.318559891475076,
+                    "6M": 13.9624051620521,
+                    "YTD": 8.50247225359513
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 100.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 80.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 76.75,
+                "volume": 1936500,
+                "close": 107.44999694824219
+            },
+            {
+                "ticker": "DOC",
+                "market_cap": 11808796672,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.41031475390114863,
+                    "1W": 5.019151297133719,
+                    "1M": -4.538693235121956,
+                    "3M": -2.17845900691674,
+                    "6M": 2.2035897254083685,
+                    "YTD": 6.1547357307902555
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 50.0,
+                    "momentum": 100.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 80.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 55.5,
+                "volume": 17983400,
+                "close": 16.989999771118164
+            }
+        ],
+        "Utilities": [
+            {
+                "ticker": "AES",
+                "market_cap": 11757117440,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.9168680497197736,
+                    "1W": 1.9135768601416663,
+                    "1M": 17.313836853846,
+                    "3M": 21.760126925440375,
+                    "6M": 28.16567436675408,
+                    "YTD": 12.722608071365329
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 62.5,
+                "volume": 12343200,
+                "close": 16.510000228881836
+            },
+            {
+                "ticker": "LNT",
+                "market_cap": 18253383680,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.4283673325050448,
+                    "1W": 1.9087282222010782,
+                    "1M": 6.149769182930269,
+                    "3M": 5.1364509029327525,
+                    "6M": 8.737699949927087,
+                    "YTD": 9.143786152162765
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 62.5,
+                "volume": 4015100,
+                "close": 71.01000213623047
+            },
+            {
+                "ticker": "AEE",
+                "market_cap": 30417821696,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.2276866967682636,
+                    "1W": 0.6493568114572381,
+                    "1M": 5.6852069091411845,
+                    "3M": 5.664799402072922,
+                    "6M": 9.456863962048915,
+                    "YTD": 9.1116422623371
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 47.5,
+                "volume": 2071300,
+                "close": 110.05000305175781
+            },
+            {
+                "ticker": "AEP",
+                "market_cap": 69971247104,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.7397577961279842,
+                    "1W": 2.3253933440759167,
+                    "1M": 9.592273675370457,
+                    "3M": 5.572738937399368,
+                    "6M": 15.738492244801119,
+                    "YTD": 12.592088547100008
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 45.75,
+                "volume": 3021300,
+                "close": 129.3699951171875
+            },
+            {
+                "ticker": "AWK",
+                "market_cap": 25250068480,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -1.5149250029824102,
+                    "1W": 0.778998237934894,
+                    "1M": -0.5671211853427373,
+                    "3M": 0.259506149568489,
+                    "6M": -9.982479353092954,
+                    "YTD": -0.055922715373182746
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 30.0,
+                "volume": 2333000,
+                "close": 129.3699951171875
+            },
+            {
+                "ticker": "ATO",
+                "market_cap": 29939486720,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.1175057195946656,
+                    "1W": 1.8000769934941783,
+                    "1M": 7.483522283614651,
+                    "3M": 3.874611785602304,
+                    "6M": 10.154359414698302,
+                    "YTD": 6.855219986130503
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 54.5,
+                "volume": 1037300,
+                "close": 180.97000122070312
+            },
+            {
+                "ticker": "CNP",
+                "market_cap": 28073336832,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.8442791170371324,
+                    "1W": 3.7858159468351666,
+                    "1M": 9.378121449177204,
+                    "3M": 8.72381900377421,
+                    "6M": 13.580600699347134,
+                    "YTD": 11.637418299925375
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 100.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 80.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 73.75,
+                "volume": 11154800,
+                "close": 43.0
+            },
+            {
+                "ticker": "CMS",
+                "market_cap": 23245088768,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.013186732276443397,
+                    "1W": 2.2717461593537385,
+                    "1M": 6.608567157909229,
+                    "3M": 2.9051858795905083,
+                    "6M": 5.4727072166398525,
+                    "YTD": 8.53121508498797
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 63.75,
+                "volume": 4349800,
+                "close": 75.86000061035156
+            },
+            {
+                "ticker": "ED",
+                "market_cap": 39634337792,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -1.8852757727591072,
+                    "1W": -0.9374488100531205,
+                    "1M": 6.580014562636256,
+                    "3M": 8.438834364818332,
+                    "6M": 9.664316171784735,
+                    "YTD": 10.683749970200857
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 80.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 63.0,
+                "volume": 3485300,
+                "close": 109.80999755859375
+            },
+            {
+                "ticker": "CEG",
+                "market_cap": 106817609728,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.0903081107635515,
+                    "1W": 6.779661578929917,
+                    "1M": 0.15966342646981374,
+                    "3M": -13.116254299417228,
+                    "6M": -6.056990935249225,
+                    "YTD": -19.49761192139505
+                },
+                "scores": {
+                    "trend": 50.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 45.0,
+                "volume": 3133100,
+                "close": 294.8399963378906
+            },
+            {
+                "ticker": "D",
+                "market_cap": 56324120576,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.7638252474687275,
+                    "1W": 1.2899206118886628,
+                    "1M": 8.273146859837798,
+                    "3M": 8.551066691568954,
+                    "6M": 9.673718015724091,
+                    "YTD": 11.34368199798434
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 80.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 65.5,
+                "volume": 9278400,
+                "close": 65.95999908447266
+            },
+            {
+                "ticker": "DTE",
+                "market_cap": 30114035712,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.02068453392358254,
+                    "1W": 2.9025592446211985,
+                    "1M": 5.78535948934768,
+                    "3M": 6.735628847841254,
+                    "6M": 4.981144707122921,
+                    "YTD": 11.230438264117277
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 45.75,
+                "volume": 1307600,
+                "close": 145.0
+            },
+            {
+                "ticker": "DUK",
+                "market_cap": 98591891456,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.3244409462719055,
+                    "1W": 1.3875010082430044,
+                    "1M": 7.112148343547162,
+                    "3M": 3.279300973002631,
+                    "6M": 3.607923012952589,
+                    "YTD": 8.872423762379611
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 57.5,
+                "volume": 5039300,
+                "close": 126.77999877929688
+            },
+            {
+                "ticker": "EIX",
+                "market_cap": 28377659392,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.4863668417668274,
+                    "1W": 6.745796046895815,
+                    "1M": 22.045680401345056,
+                    "3M": 28.082365507042027,
+                    "6M": 35.764191891315036,
+                    "YTD": 22.806037403480943
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 57.0,
+                "volume": 3322800,
+                "close": 73.73999786376953
+            },
+            {
+                "ticker": "ETR",
+                "market_cap": 47052337152,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.6677584436124034,
+                    "1W": 2.020397780591452,
+                    "1M": 9.37433391410742,
+                    "3M": 10.86833591812625,
+                    "6M": 17.33586041464478,
+                    "YTD": 11.553436688121618
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 48.75,
+                "volume": 2721600,
+                "close": 104.0199966430664
+            }
+        ],
+        "Consumer Staples": [
+            {
+                "ticker": "MO",
+                "market_cap": 113427841024,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.6177352289183125,
+                    "1W": 0.8356924947641132,
+                    "1M": 10.62540548332113,
+                    "3M": 16.740085057202943,
+                    "6M": 3.4604712821080734,
+                    "YTD": 17.902631435487653
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 100.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 62.5,
+                "volume": 7058600,
+                "close": 67.56999969482422
+            },
+            {
+                "ticker": "ADM",
+                "market_cap": 32621072384,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -1.4231823239139967,
+                    "1W": -1.594782730070276,
+                    "1M": 1.0216082492581064,
+                    "3M": 13.006661260095248,
+                    "6M": 13.564905490613969,
+                    "YTD": 15.819867752778105
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 47.5,
+                "volume": 2697800,
+                "close": 67.87999725341797
+            },
+            {
+                "ticker": "BF-B",
+                "market_cap": 13891650560,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.9374564695651149,
+                    "1W": -2.2171512992638704,
+                    "1M": 7.068902270820759,
+                    "3M": 9.155228728336553,
+                    "6M": 0.10641967539675153,
+                    "YTD": 14.728387419145635
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 37.5,
+                "volume": 4403700,
+                "close": 29.989999771118164
+            },
+            {
+                "ticker": "BG",
+                "market_cap": 23580379136,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -1.247065302589305,
+                    "1W": 0.7480612391152501,
+                    "1M": 9.441141348416785,
+                    "3M": 27.575079575646566,
+                    "6M": 49.995725596227715,
+                    "YTD": 32.39495836253383
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 30.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 57.0,
+                "volume": 951700,
+                "close": 121.94999694824219
+            },
+            {
+                "ticker": "CPB",
+                "market_cap": 7998941696,
+                "market_cap_category": "Mid-Cap",
+                "performance": {
+                    "1D": -0.48219274918845706,
+                    "1W": -7.546521362895878,
+                    "1M": 2.4045768794699844,
+                    "3M": -12.231800962910002,
+                    "6M": -14.87929887876516,
+                    "YTD": -1.7160815376638359
+                },
+                "scores": {
+                    "trend": 0.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 0.0,
+                "volume": 5822000,
+                "close": 26.829999923706055
+            },
+            {
+                "ticker": "CHD",
+                "market_cap": 24752609280,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.16464713699303873,
+                    "1W": 3.398467723235092,
+                    "1M": 12.683597991446794,
+                    "3M": 24.74179203487736,
+                    "6M": 9.323383600661463,
+                    "YTD": 25.11915623274054
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 80.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 43.25,
+                "volume": 1741400,
+                "close": 103.08000183105469
+            },
+            {
+                "ticker": "CLX",
+                "market_cap": 15076773888,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.1291091798681867,
+                    "1W": -0.8344038194962617,
+                    "1M": 13.053225843031827,
+                    "3M": 24.794328719243673,
+                    "6M": 4.144401665127692,
+                    "YTD": 23.915753345182473
+                },
+                "scores": {
+                    "trend": 75.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 37.5,
+                "volume": 2390300,
+                "close": 123.5999984741211
+            },
+            {
+                "ticker": "KO",
+                "market_cap": 343440457728,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.1785485142840126,
+                    "1W": 1.0632865036590189,
+                    "1M": 10.873481418382909,
+                    "3M": 12.890732286799404,
+                    "6M": 14.593194132359189,
+                    "YTD": 15.509249371143428
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 50.0,
+                    "momentum": 80.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 54.5,
+                "volume": 17164200,
+                "close": 79.83999633789062
+            },
+            {
+                "ticker": "CL",
+                "market_cap": 76853714944,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.1810948513603547,
+                    "1W": -1.123013259454793,
+                    "1M": 12.227065467369954,
+                    "3M": 20.60037206843226,
+                    "6M": 11.92760701773544,
+                    "YTD": 23.14618038576984
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 50.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 42.5,
+                "volume": 6561000,
+                "close": 95.08999633789062
+            },
+            {
+                "ticker": "CAG",
+                "market_cap": 8835483648,
+                "market_cap_category": "Mid-Cap",
+                "performance": {
+                    "1D": -1.177106551186184,
+                    "1W": -7.372122273479159,
+                    "1M": 8.869376634049846,
+                    "3M": 8.368258289720503,
+                    "6M": -0.14812387424824427,
+                    "YTD": 8.869376634049846
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 0.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 7.5,
+                "volume": 10945200,
+                "close": 18.469999313354492
+            },
+            {
+                "ticker": "STZ",
+                "market_cap": 27230023680,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 1.144596662860192,
+                    "1W": -3.664693844465799,
+                    "1M": -3.643050619780815,
+                    "3M": 20.606751445859313,
+                    "6M": -4.591961960710692,
+                    "YTD": 11.516606156817334
+                },
+                "scores": {
+                    "trend": 25.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 25.0,
+                "volume": 1222700,
+                "close": 156.41000366210938
+            },
+            {
+                "ticker": "COST",
+                "market_cap": 437418196992,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.25814295864244446,
+                    "1W": -1.3605476262550775,
+                    "1M": 0.3821541029657658,
+                    "3M": 10.226573139308313,
+                    "6M": -0.6593982762265294,
+                    "YTD": 15.461209290189535
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 0.0
+                },
+                "total_score": 47.5,
+                "volume": 1661700,
+                "close": 985.27001953125
+            },
+            {
+                "ticker": "DG",
+                "market_cap": 33158705152,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": -0.7576216795244011,
+                    "1W": 1.400108956136938,
+                    "1M": 2.3647700740273145,
+                    "3M": 46.407103641787245,
+                    "6M": 32.518539970797804,
+                    "YTD": 10.570420281799176
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 50.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 50.0
+                },
+                "total_score": 50.0,
+                "volume": 2596200,
+                "close": 150.63999938964844
+            },
+            {
+                "ticker": "DLTR",
+                "market_cap": 27435712512,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 0.7037412076616321,
+                    "1W": 4.734098090625545,
+                    "1M": 1.1809779122891673,
+                    "3M": 32.43083086638058,
+                    "6M": 18.667839715539014,
+                    "YTD": 5.332809492042427
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 100.0,
+                    "volatility": 0.0,
+                    "volume_surge": 50.0,
+                    "price_roc": 75.0
+                },
+                "total_score": 63.75,
+                "volume": 4010800,
+                "close": 134.50999450683594
+            },
+            {
+                "ticker": "EL",
+                "market_cap": 41320079360,
+                "market_cap_category": "Large-Cap",
+                "performance": {
+                    "1D": 2.2283922863501497,
+                    "1W": 7.338851082847827,
+                    "1M": -3.0881473698396,
+                    "3M": 30.20473975062018,
+                    "6M": 32.95303970576979,
+                    "YTD": 6.997003626106221
+                },
+                "scores": {
+                    "trend": 100.0,
+                    "breakout": 0.0,
+                    "momentum": 100.0,
+                    "squeeze": 0.0,
+                    "volatility": 0.0,
+                    "volume_surge": 0.0,
+                    "price_roc": 100.0
+                },
+                "total_score": 50.0,
+                "volume": 2666900,
+                "close": 114.2300033569336
+            }
+        ]
+    }
+}

@@ -1,0 +1,132 @@
+[
+    {
+        "ticker": "XLF",
+        "type": "Unusual Call Volume",
+        "strike": 53.0,
+        "expiration": "Next Monthly",
+        "volume": 661,
+        "oi": 209,
+        "iv": 0.26367923828125,
+        "details": "Vol 661 > OI 209 (IV 0.26)"
+    },
+    {
+        "ticker": "XLF",
+        "type": "Unusual Call Volume",
+        "strike": 53.5,
+        "expiration": "Next Monthly",
+        "volume": 998,
+        "oi": 242,
+        "iv": 0.33740896972656254,
+        "details": "Vol 998 > OI 242 (IV 0.34)"
+    },
+    {
+        "ticker": "XLF",
+        "type": "Unusual Put Volume",
+        "strike": 47.0,
+        "expiration": "Next Monthly",
+        "volume": 809,
+        "oi": 69,
+        "iv": 0.38672488281249995,
+        "details": "Vol 809 > OI 69 (IV 0.39)"
+    },
+    {
+        "ticker": "XLF",
+        "type": "Unusual Put Volume",
+        "strike": 49.0,
+        "expiration": "Next Monthly",
+        "volume": 1114,
+        "oi": 31,
+        "iv": 0.301764794921875,
+        "details": "Vol 1114 > OI 31 (IV 0.30)"
+    },
+    {
+        "ticker": "XLF",
+        "type": "Unusual Put Volume",
+        "strike": 49.5,
+        "expiration": "Next Monthly",
+        "volume": 799,
+        "oi": 246,
+        "iv": 0.273444765625,
+        "details": "Vol 799 > OI 246 (IV 0.27)"
+    },
+    {
+        "ticker": "XLF",
+        "type": "Unusual Put Volume",
+        "strike": 53.5,
+        "expiration": "Next Monthly",
+        "volume": 589,
+        "oi": 234,
+        "iv": 0.18116053222656248,
+        "details": "Vol 589 > OI 234 (IV 0.18)"
+    },
+    {
+        "ticker": "XLF",
+        "type": "Bearish Sentiment (PCR)",
+        "strike": "N/A",
+        "expiration": "N/A",
+        "volume": 6986,
+        "oi": 0,
+        "iv": 0,
+        "details": "Put/Call Ratio is extremely high (2.16). heavy put buying."
+    },
+    {
+        "ticker": "FRT",
+        "type": "Unusual Call Volume",
+        "strike": 105.0,
+        "expiration": "Next Monthly",
+        "volume": 1025,
+        "oi": 95,
+        "iv": 0.22095505615234373,
+        "details": "Vol 1025 > OI 95 (IV 0.22)"
+    },
+    {
+        "ticker": "XLE",
+        "type": "Unusual Call Volume",
+        "strike": 58.0,
+        "expiration": "Next Monthly",
+        "volume": 687,
+        "oi": 348,
+        "iv": 0.35352208984374994,
+        "details": "Vol 687 > OI 348 (IV 0.35)"
+    },
+    {
+        "ticker": "XLE",
+        "type": "Unusual Put Volume",
+        "strike": 52.5,
+        "expiration": "Next Monthly",
+        "volume": 7124,
+        "oi": 122,
+        "iv": 0.31250687499999996,
+        "details": "Vol 7124 > OI 122 (IV 0.31)"
+    },
+    {
+        "ticker": "XLE",
+        "type": "Unusual Put Volume",
+        "strike": 56.0,
+        "expiration": "Next Monthly",
+        "volume": 1526,
+        "oi": 262,
+        "iv": 0.3232489550781249,
+        "details": "Vol 1526 > OI 262 (IV 0.32)"
+    },
+    {
+        "ticker": "XLE",
+        "type": "Bearish Sentiment (PCR)",
+        "strike": "N/A",
+        "expiration": "N/A",
+        "volume": 11845,
+        "oi": 0,
+        "iv": 0,
+        "details": "Put/Call Ratio is extremely high (2.47). heavy put buying."
+    },
+    {
+        "ticker": "BDX",
+        "type": "Unusual Call Volume",
+        "strike": 185.0,
+        "expiration": "Next Monthly",
+        "volume": 651,
+        "oi": 36,
+        "iv": 0.26892820922851557,
+        "details": "Vol 651 > OI 36 (IV 0.27)"
+    }
+]

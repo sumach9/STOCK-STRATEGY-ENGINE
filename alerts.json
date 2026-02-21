@@ -1,0 +1,26 @@
+{
+    "generated_at": "2026-02-21 13:49:26",
+    "alerts": [
+        {
+            "type": "SECTOR_GROWTH",
+            "severity": "medium",
+            "title": "\ud83d\ude80 Industrials Leading the Market",
+            "message": "Industrials (XLI) is up 2.59% this week.",
+            "sector": "Industrials"
+        },
+        {
+            "type": "VOLUME_SPIKE",
+            "severity": "high",
+            "title": "\ud83d\udce2 High Volume in Consumer Discretionary",
+            "message": "Trading volume is 1.5x the average. Watch for big moves.",
+            "sector": "Consumer Discretionary"
+        },
+        {
+            "type": "STOCK_PICKS",
+            "severity": "info",
+            "title": "\ud83d\udd25 Top Picks in Industrials",
+            "message": "Watch these leaders: FIX (Large-Cap)",
+            "sector": "Industrials"
+        }
+    ]
+}

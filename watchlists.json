@@ -1,0 +1,1794 @@
+{
+    "Oversold Reversal": [
+        {
+            "ticker": "BKNG",
+            "reason": "RSI 28.8, Vol 1.7x",
+            "category": "Large-Cap",
+            "price": 4076.7900390625,
+            "score": 18.0
+        },
+        {
+            "ticker": "CVNA",
+            "reason": "RSI 34.5, Vol 1.3x",
+            "category": "Large-Cap",
+            "price": 336.6199951171875,
+            "score": 12.5
+        },
+        {
+            "ticker": "APO",
+            "reason": "RSI 33.1, Vol 1.2x",
+            "category": "Large-Cap",
+            "price": 119.72000122070312,
+            "score": 5.0
+        },
+        {
+            "ticker": "ARES",
+            "reason": "RSI 31.6, Vol 1.3x",
+            "category": "Large-Cap",
+            "price": 123.16000366210938,
+            "score": 5.0
+        },
+        {
+            "ticker": "BX",
+            "reason": "RSI 28.5, Vol 1.9x",
+            "category": "Large-Cap",
+            "price": 121.2699966430664,
+            "score": 18.0
+        },
+        {
+            "ticker": "A",
+            "reason": "RSI 32.1, Vol 2.1x",
+            "category": "Large-Cap",
+            "price": 122.9000015258789,
+            "score": 37.5
+        },
+        {
+            "ticker": "CPRT",
+            "reason": "RSI 32.8, Vol 2.6x",
+            "category": "Large-Cap",
+            "price": 36.47999954223633,
+            "score": 20.0
+        }
+    ],
+    "Breakout + Retest": [
+        {
+            "ticker": "LYV",
+            "reason": "Holding support after breakout",
+            "category": "Large-Cap",
+            "price": 162.6699981689453,
+            "score": 67.0
+        },
+        {
+            "ticker": "AIG",
+            "reason": "Holding support after breakout",
+            "category": "Large-Cap",
+            "price": 80.44000244140625,
+            "score": 43.75
+        },
+        {
+            "ticker": "BDX",
+            "reason": "Holding support after breakout",
+            "category": "Large-Cap",
+            "price": 185.38999938964844,
+            "score": 55.75
+        },
+        {
+            "ticker": "APA",
+            "reason": "Holding support after breakout",
+            "category": "Large-Cap",
+            "price": 29.059999465942383,
+            "score": 50.0
+        },
+        {
+            "ticker": "BKR",
+            "reason": "Holding support after breakout",
+            "category": "Large-Cap",
+            "price": 62.209999084472656,
+            "score": 64.5
+        },
+        {
+            "ticker": "AMCR",
+            "reason": "Holding support after breakout",
+            "category": "Large-Cap",
+            "price": 50.4900016784668,
+            "score": 44.5
+        },
+        {
+            "ticker": "AMT",
+            "reason": "Holding support after breakout",
+            "category": "Large-Cap",
+            "price": 187.30999755859375,
+            "score": 30.0
+        },
+        {
+            "ticker": "EXR",
+            "reason": "Holding support after breakout",
+            "category": "Large-Cap",
+            "price": 152.75,
+            "score": 83.0
+        },
+        {
+            "ticker": "AEP",
+            "reason": "Holding support after breakout",
+            "category": "Large-Cap",
+            "price": 129.3699951171875,
+            "score": 45.75
+        },
+        {
+            "ticker": "ATO",
+            "reason": "Holding support after breakout",
+            "category": "Large-Cap",
+            "price": 180.97000122070312,
+            "score": 54.5
+        },
+        {
+            "ticker": "ETR",
+            "reason": "Holding support after breakout",
+            "category": "Large-Cap",
+            "price": 104.0199966430664,
+            "score": 48.75
+        },
+        {
+            "ticker": "CHD",
+            "reason": "Holding support after breakout",
+            "category": "Large-Cap",
+            "price": 103.08000183105469,
+            "score": 43.25
+        }
+    ],
+    "RS Leadership": [
+        {
+            "ticker": "ADI",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 355.0299987792969,
+            "score": 62.0
+        },
+        {
+            "ticker": "AAPL",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 264.5799865722656,
+            "score": 25.0
+        },
+        {
+            "ticker": "AMAT",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 375.3800048828125,
+            "score": 60.0
+        },
+        {
+            "ticker": "CIEN",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 334.95001220703125,
+            "score": 57.0
+        },
+        {
+            "ticker": "CCL",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 31.989999771118164,
+            "score": 42.5
+        },
+        {
+            "ticker": "DRI",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 217.27000427246094,
+            "score": 53.75
+        },
+        {
+            "ticker": "DECK",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 118.69000244140625,
+            "score": 41.25
+        },
+        {
+            "ticker": "DHI",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 164.1199951171875,
+            "score": 45.0
+        },
+        {
+            "ticker": "T",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 27.979999542236328,
+            "score": 37.5
+        },
+        {
+            "ticker": "CHTR",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 230.16000366210938,
+            "score": 30.0
+        },
+        {
+            "ticker": "CMCSA",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 31.34000015258789,
+            "score": 30.0
+        },
+        {
+            "ticker": "LYV",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 162.6699981689453,
+            "score": 67.0
+        },
+        {
+            "ticker": "OMC",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 83.26000213623047,
+            "score": 62.5
+        },
+        {
+            "ticker": "AFL",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 114.02999877929688,
+            "score": 37.5
+        },
+        {
+            "ticker": "ALL",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 206.3699951171875,
+            "score": 55.0
+        },
+        {
+            "ticker": "AIG",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 80.44000244140625,
+            "score": 43.75
+        },
+        {
+            "ticker": "ACGL",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 98.48999786376953,
+            "score": 42.5
+        },
+        {
+            "ticker": "ALGN",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 190.02000427246094,
+            "score": 48.75
+        },
+        {
+            "ticker": "AMGN",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 374.75,
+            "score": 48.75
+        },
+        {
+            "ticker": "BAX",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 21.579999923706055,
+            "score": 35.0
+        },
+        {
+            "ticker": "BDX",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 185.38999938964844,
+            "score": 55.75
+        },
+        {
+            "ticker": "BIIB",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 192.02999877929688,
+            "score": 45.0
+        },
+        {
+            "ticker": "BMY",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 60.65999984741211,
+            "score": 47.5
+        },
+        {
+            "ticker": "CAH",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 224.44000244140625,
+            "score": 48.75
+        },
+        {
+            "ticker": "AOS",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 77.80999755859375,
+            "score": 37.5
+        },
+        {
+            "ticker": "AME",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 233.50999450683594,
+            "score": 51.25
+        },
+        {
+            "ticker": "CHRW",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 190.05999755859375,
+            "score": 42.5
+        },
+        {
+            "ticker": "CARR",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 64.13999938964844,
+            "score": 30.0
+        },
+        {
+            "ticker": "CAT",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 759.739990234375,
+            "score": 47.5
+        },
+        {
+            "ticker": "FIX",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 1462.22998046875,
+            "score": 77.0
+        },
+        {
+            "ticker": "APA",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 29.059999465942383,
+            "score": 50.0
+        },
+        {
+            "ticker": "BKR",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 62.209999084472656,
+            "score": 64.5
+        },
+        {
+            "ticker": "CVX",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 183.92999267578125,
+            "score": 40.0
+        },
+        {
+            "ticker": "COP",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 110.52999877929688,
+            "score": 47.5
+        },
+        {
+            "ticker": "CTRA",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 31.280000686645508,
+            "score": 47.5
+        },
+        {
+            "ticker": "DVN",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 44.38999938964844,
+            "score": 52.5
+        },
+        {
+            "ticker": "FANG",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 176.00999450683594,
+            "score": 78.0
+        },
+        {
+            "ticker": "EOG",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 123.08000183105469,
+            "score": 46.25
+        },
+        {
+            "ticker": "EQT",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 60.5,
+            "score": 60.0
+        },
+        {
+            "ticker": "XOM",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 147.27999877929688,
+            "score": 52.5
+        },
+        {
+            "ticker": "KMI",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 32.72999954223633,
+            "score": 55.75
+        },
+        {
+            "ticker": "MPC",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 196.75999450683594,
+            "score": 45.0
+        },
+        {
+            "ticker": "OXY",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 51.84000015258789,
+            "score": 62.0
+        },
+        {
+            "ticker": "APD",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 281.17999267578125,
+            "score": 35.0
+        },
+        {
+            "ticker": "AMCR",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 50.4900016784668,
+            "score": 44.5
+        },
+        {
+            "ticker": "AVY",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 196.9199981689453,
+            "score": 57.5
+        },
+        {
+            "ticker": "BALL",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 66.52999877929688,
+            "score": 34.5
+        },
+        {
+            "ticker": "CF",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 97.18000030517578,
+            "score": 76.75
+        },
+        {
+            "ticker": "CTVA",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 76.30999755859375,
+            "score": 73.75
+        },
+        {
+            "ticker": "DOW",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 30.520000457763672,
+            "score": 35.0
+        },
+        {
+            "ticker": "DD",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 50.40999984741211,
+            "score": 47.5
+        },
+        {
+            "ticker": "ECL",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 304.1600036621094,
+            "score": 54.5
+        },
+        {
+            "ticker": "FCX",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 64.33999633789062,
+            "score": 51.25
+        },
+        {
+            "ticker": "IFF",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 81.38999938964844,
+            "score": 42.0
+        },
+        {
+            "ticker": "IP",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 46.869998931884766,
+            "score": 37.5
+        },
+        {
+            "ticker": "LIN",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 496.510009765625,
+            "score": 62.0
+        },
+        {
+            "ticker": "AMT",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 187.30999755859375,
+            "score": 30.0
+        },
+        {
+            "ticker": "DLR",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 175.67999267578125,
+            "score": 45.0
+        },
+        {
+            "ticker": "EQIX",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 928.1099853515625,
+            "score": 47.0
+        },
+        {
+            "ticker": "EXR",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 152.75,
+            "score": 83.0
+        },
+        {
+            "ticker": "FRT",
+            "reason": "Outperforming Trend",
+            "category": "Mid-Cap",
+            "price": 107.44999694824219,
+            "score": 76.75
+        },
+        {
+            "ticker": "AES",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 16.510000228881836,
+            "score": 62.5
+        },
+        {
+            "ticker": "LNT",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 71.01000213623047,
+            "score": 62.5
+        },
+        {
+            "ticker": "AEE",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 110.05000305175781,
+            "score": 47.5
+        },
+        {
+            "ticker": "AEP",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 129.3699951171875,
+            "score": 45.75
+        },
+        {
+            "ticker": "ATO",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 180.97000122070312,
+            "score": 54.5
+        },
+        {
+            "ticker": "CNP",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 43.0,
+            "score": 73.75
+        },
+        {
+            "ticker": "CMS",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 75.86000061035156,
+            "score": 63.75
+        },
+        {
+            "ticker": "ED",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 109.80999755859375,
+            "score": 63.0
+        },
+        {
+            "ticker": "D",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 65.95999908447266,
+            "score": 65.5
+        },
+        {
+            "ticker": "DTE",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 145.0,
+            "score": 45.75
+        },
+        {
+            "ticker": "DUK",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 126.77999877929688,
+            "score": 57.5
+        },
+        {
+            "ticker": "EIX",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 73.73999786376953,
+            "score": 57.0
+        },
+        {
+            "ticker": "ETR",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 104.0199966430664,
+            "score": 48.75
+        },
+        {
+            "ticker": "MO",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 67.56999969482422,
+            "score": 62.5
+        },
+        {
+            "ticker": "BF-B",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 29.989999771118164,
+            "score": 37.5
+        },
+        {
+            "ticker": "BG",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 121.94999694824219,
+            "score": 57.0
+        },
+        {
+            "ticker": "CHD",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 103.08000183105469,
+            "score": 43.25
+        },
+        {
+            "ticker": "CLX",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 123.5999984741211,
+            "score": 37.5
+        },
+        {
+            "ticker": "KO",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 79.83999633789062,
+            "score": 54.5
+        },
+        {
+            "ticker": "CL",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 95.08999633789062,
+            "score": 42.5
+        },
+        {
+            "ticker": "CAG",
+            "reason": "Outperforming Trend",
+            "category": "Mid-Cap",
+            "price": 18.469999313354492,
+            "score": 7.5
+        },
+        {
+            "ticker": "DLTR",
+            "reason": "Outperforming Trend",
+            "category": "Large-Cap",
+            "price": 134.50999450683594,
+            "score": 63.75
+        }
+    ],
+    "Gap Fill Candidates": [
+        {
+            "ticker": "APP",
+            "reason": "Entering Gap Zone",
+            "category": "Large-Cap",
+            "price": 418.67999267578125,
+            "score": 20.0
+        },
+        {
+            "ticker": "BAX",
+            "reason": "Entering Gap Zone",
+            "category": "Large-Cap",
+            "price": 21.579999923706055,
+            "score": 35.0
+        },
+        {
+            "ticker": "EXE",
+            "reason": "Entering Gap Zone",
+            "category": "Large-Cap",
+            "price": 108.05999755859375,
+            "score": 43.75
+        },
+        {
+            "ticker": "EQIX",
+            "reason": "Entering Gap Zone",
+            "category": "Large-Cap",
+            "price": 928.1099853515625,
+            "score": 47.0
+        }
+    ],
+    "Inst. Accumulation": [
+        {
+            "ticker": "AKAM",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 94.16999816894531,
+            "score": 50.0
+        },
+        {
+            "ticker": "AVGO",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 332.6499938964844,
+            "score": 35.0
+        },
+        {
+            "ticker": "AZO",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 3748.52001953125,
+            "score": 40.0
+        },
+        {
+            "ticker": "DRI",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 217.27000427246094,
+            "score": 53.75
+        },
+        {
+            "ticker": "EBAY",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 88.06999969482422,
+            "score": 40.0
+        },
+        {
+            "ticker": "EA",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 200.39999389648438,
+            "score": 15.0
+        },
+        {
+            "ticker": "MTCH",
+            "reason": "Rising OBV flat Price",
+            "category": "Mid-Cap",
+            "price": 31.829999923706055,
+            "score": 27.5
+        },
+        {
+            "ticker": "ALL",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 206.3699951171875,
+            "score": 55.0
+        },
+        {
+            "ticker": "ABT",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 112.20999908447266,
+            "score": 20.0
+        },
+        {
+            "ticker": "ALGN",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 190.02000427246094,
+            "score": 48.75
+        },
+        {
+            "ticker": "BAX",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 21.579999923706055,
+            "score": 35.0
+        },
+        {
+            "ticker": "COR",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 361.0799865722656,
+            "score": 53.75
+        },
+        {
+            "ticker": "AME",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 233.50999450683594,
+            "score": 51.25
+        },
+        {
+            "ticker": "CARR",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 64.13999938964844,
+            "score": 30.0
+        },
+        {
+            "ticker": "DVN",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 44.38999938964844,
+            "score": 52.5
+        },
+        {
+            "ticker": "XOM",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 147.27999877929688,
+            "score": 52.5
+        },
+        {
+            "ticker": "CPT",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 107.19999694824219,
+            "score": 7.5
+        },
+        {
+            "ticker": "CSGP",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 49.869998931884766,
+            "score": 5.0
+        },
+        {
+            "ticker": "FRT",
+            "reason": "Rising OBV flat Price",
+            "category": "Mid-Cap",
+            "price": 107.44999694824219,
+            "score": 76.75
+        },
+        {
+            "ticker": "BF-B",
+            "reason": "Rising OBV flat Price",
+            "category": "Large-Cap",
+            "price": 29.989999771118164,
+            "score": 37.5
+        }
+    ],
+    "Base Breakouts": [],
+    "EMA Trend Ride": [],
+    "Volatility Expansion": [],
+    "Earnings Drift": [
+        {
+            "ticker": "AMAT",
+            "reason": "Post-Event Drift Up",
+            "category": "Large-Cap",
+            "price": 375.3800048828125,
+            "score": 60.0
+        },
+        {
+            "ticker": "DECK",
+            "reason": "Post-Event Drift Up",
+            "category": "Large-Cap",
+            "price": 118.69000244140625,
+            "score": 41.25
+        }
+    ],
+    "VWAP Hold": [
+        {
+            "ticker": "APH",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 151.0399932861328,
+            "score": 50.0
+        },
+        {
+            "ticker": "ADI",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 355.0299987792969,
+            "score": 62.0
+        },
+        {
+            "ticker": "AAPL",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 264.5799865722656,
+            "score": 25.0
+        },
+        {
+            "ticker": "AMAT",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 375.3800048828125,
+            "score": 60.0
+        },
+        {
+            "ticker": "APP",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 418.67999267578125,
+            "score": 20.0
+        },
+        {
+            "ticker": "AVGO",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 332.6499938964844,
+            "score": 35.0
+        },
+        {
+            "ticker": "CDNS",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 296.2799987792969,
+            "score": 11.25
+        },
+        {
+            "ticker": "CIEN",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 334.95001220703125,
+            "score": 57.0
+        },
+        {
+            "ticker": "ABNB",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 127.88999938964844,
+            "score": 32.5
+        },
+        {
+            "ticker": "AMZN",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 210.11000061035156,
+            "score": 12.5
+        },
+        {
+            "ticker": "DRI",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 217.27000427246094,
+            "score": 53.75
+        },
+        {
+            "ticker": "DECK",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 118.69000244140625,
+            "score": 41.25
+        },
+        {
+            "ticker": "DPZ",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 384.6099853515625,
+            "score": 7.5
+        },
+        {
+            "ticker": "DASH",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 176.2899932861328,
+            "score": 10.0
+        },
+        {
+            "ticker": "EBAY",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 88.06999969482422,
+            "score": 40.0
+        },
+        {
+            "ticker": "GOOGL",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 314.9800109863281,
+            "score": 30.0
+        },
+        {
+            "ticker": "GOOG",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 314.8999938964844,
+            "score": 30.0
+        },
+        {
+            "ticker": "EA",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 200.39999389648438,
+            "score": 15.0
+        },
+        {
+            "ticker": "FOXA",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 57.02000045776367,
+            "score": 10.0
+        },
+        {
+            "ticker": "FOX",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 52.25,
+            "score": 10.0
+        },
+        {
+            "ticker": "LYV",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 162.6699981689453,
+            "score": 67.0
+        },
+        {
+            "ticker": "MTCH",
+            "reason": "Holding above 5D VWAP",
+            "category": "Mid-Cap",
+            "price": 31.829999923706055,
+            "score": 27.5
+        },
+        {
+            "ticker": "META",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 655.6599731445312,
+            "score": 7.5
+        },
+        {
+            "ticker": "NFLX",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 78.66999816894531,
+            "score": 11.25
+        },
+        {
+            "ticker": "NWSA",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 23.649999618530273,
+            "score": 10.0
+        },
+        {
+            "ticker": "NWS",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 26.549999237060547,
+            "score": 3.75
+        },
+        {
+            "ticker": "OMC",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 83.26000213623047,
+            "score": 62.5
+        },
+        {
+            "ticker": "AXP",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 346.17999267578125,
+            "score": 17.5
+        },
+        {
+            "ticker": "AIG",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 80.44000244140625,
+            "score": 43.75
+        },
+        {
+            "ticker": "AON",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 325.07000732421875,
+            "score": 3.75
+        },
+        {
+            "ticker": "AJG",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 216.50999450683594,
+            "score": 5.0
+        },
+        {
+            "ticker": "AIZ",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 224.30999755859375,
+            "score": 20.0
+        },
+        {
+            "ticker": "BAC",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 53.060001373291016,
+            "score": 27.5
+        },
+        {
+            "ticker": "BLK",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 1093.6400146484375,
+            "score": 46.25
+        },
+        {
+            "ticker": "ALGN",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 190.02000427246094,
+            "score": 48.75
+        },
+        {
+            "ticker": "AMGN",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 374.75,
+            "score": 48.75
+        },
+        {
+            "ticker": "BAX",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 21.579999923706055,
+            "score": 35.0
+        },
+        {
+            "ticker": "BDX",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 185.38999938964844,
+            "score": 55.75
+        },
+        {
+            "ticker": "BMY",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 60.65999984741211,
+            "score": 47.5
+        },
+        {
+            "ticker": "CAH",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 224.44000244140625,
+            "score": 48.75
+        },
+        {
+            "ticker": "COR",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 361.0799865722656,
+            "score": 53.75
+        },
+        {
+            "ticker": "CNC",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 43.2400016784668,
+            "score": 35.0
+        },
+        {
+            "ticker": "CRL",
+            "reason": "Holding above 5D VWAP",
+            "category": "Mid-Cap",
+            "price": 168.9199981689453,
+            "score": 17.5
+        },
+        {
+            "ticker": "AME",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 233.50999450683594,
+            "score": 51.25
+        },
+        {
+            "ticker": "ADP",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 214.47000122070312,
+            "score": 3.75
+        },
+        {
+            "ticker": "BR",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 177.02000427246094,
+            "score": 11.25
+        },
+        {
+            "ticker": "CHRW",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 190.05999755859375,
+            "score": 42.5
+        },
+        {
+            "ticker": "CTAS",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 200.02000427246094,
+            "score": 41.25
+        },
+        {
+            "ticker": "FIX",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 1462.22998046875,
+            "score": 77.0
+        },
+        {
+            "ticker": "APA",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 29.059999465942383,
+            "score": 50.0
+        },
+        {
+            "ticker": "BKR",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 62.209999084472656,
+            "score": 64.5
+        },
+        {
+            "ticker": "CVX",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 183.92999267578125,
+            "score": 40.0
+        },
+        {
+            "ticker": "COP",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 110.52999877929688,
+            "score": 47.5
+        },
+        {
+            "ticker": "FANG",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 176.00999450683594,
+            "score": 78.0
+        },
+        {
+            "ticker": "EOG",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 123.08000183105469,
+            "score": 46.25
+        },
+        {
+            "ticker": "EQT",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 60.5,
+            "score": 60.0
+        },
+        {
+            "ticker": "EXE",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 108.05999755859375,
+            "score": 43.75
+        },
+        {
+            "ticker": "HAL",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 35.11000061035156,
+            "score": 51.25
+        },
+        {
+            "ticker": "KMI",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 32.72999954223633,
+            "score": 55.75
+        },
+        {
+            "ticker": "OXY",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 51.84000015258789,
+            "score": 62.0
+        },
+        {
+            "ticker": "APD",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 281.17999267578125,
+            "score": 35.0
+        },
+        {
+            "ticker": "ALB",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 168.4199981689453,
+            "score": 45.0
+        },
+        {
+            "ticker": "AMCR",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 50.4900016784668,
+            "score": 44.5
+        },
+        {
+            "ticker": "AVY",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 196.9199981689453,
+            "score": 57.5
+        },
+        {
+            "ticker": "CTVA",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 76.30999755859375,
+            "score": 73.75
+        },
+        {
+            "ticker": "CRH",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 124.04000091552734,
+            "score": 35.0
+        },
+        {
+            "ticker": "ECL",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 304.1600036621094,
+            "score": 54.5
+        },
+        {
+            "ticker": "FCX",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 64.33999633789062,
+            "score": 51.25
+        },
+        {
+            "ticker": "LIN",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 496.510009765625,
+            "score": 62.0
+        },
+        {
+            "ticker": "ARE",
+            "reason": "Holding above 5D VWAP",
+            "category": "Mid-Cap",
+            "price": 53.650001525878906,
+            "score": 15.0
+        },
+        {
+            "ticker": "AVB",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 177.39999389648438,
+            "score": 30.0
+        },
+        {
+            "ticker": "CBRE",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 147.00999450683594,
+            "score": 12.5
+        },
+        {
+            "ticker": "CSGP",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 49.869998931884766,
+            "score": 5.0
+        },
+        {
+            "ticker": "ESS",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 254.52000427246094,
+            "score": 25.0
+        },
+        {
+            "ticker": "EXR",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 152.75,
+            "score": 83.0
+        },
+        {
+            "ticker": "FRT",
+            "reason": "Holding above 5D VWAP",
+            "category": "Mid-Cap",
+            "price": 107.44999694824219,
+            "score": 76.75
+        },
+        {
+            "ticker": "DOC",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 16.989999771118164,
+            "score": 55.5
+        },
+        {
+            "ticker": "AES",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 16.510000228881836,
+            "score": 62.5
+        },
+        {
+            "ticker": "LNT",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 71.01000213623047,
+            "score": 62.5
+        },
+        {
+            "ticker": "AEE",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 110.05000305175781,
+            "score": 47.5
+        },
+        {
+            "ticker": "AEP",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 129.3699951171875,
+            "score": 45.75
+        },
+        {
+            "ticker": "ATO",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 180.97000122070312,
+            "score": 54.5
+        },
+        {
+            "ticker": "CNP",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 43.0,
+            "score": 73.75
+        },
+        {
+            "ticker": "CMS",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 75.86000061035156,
+            "score": 63.75
+        },
+        {
+            "ticker": "CEG",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 294.8399963378906,
+            "score": 45.0
+        },
+        {
+            "ticker": "D",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 65.95999908447266,
+            "score": 65.5
+        },
+        {
+            "ticker": "DUK",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 126.77999877929688,
+            "score": 57.5
+        },
+        {
+            "ticker": "EIX",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 73.73999786376953,
+            "score": 57.0
+        },
+        {
+            "ticker": "ETR",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 104.0199966430664,
+            "score": 48.75
+        },
+        {
+            "ticker": "MO",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 67.56999969482422,
+            "score": 62.5
+        },
+        {
+            "ticker": "BF-B",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 29.989999771118164,
+            "score": 37.5
+        },
+        {
+            "ticker": "CHD",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 103.08000183105469,
+            "score": 43.25
+        },
+        {
+            "ticker": "CLX",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 123.5999984741211,
+            "score": 37.5
+        },
+        {
+            "ticker": "KO",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 79.83999633789062,
+            "score": 54.5
+        },
+        {
+            "ticker": "STZ",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 156.41000366210938,
+            "score": 25.0
+        },
+        {
+            "ticker": "DLTR",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 134.50999450683594,
+            "score": 63.75
+        },
+        {
+            "ticker": "EL",
+            "reason": "Holding above 5D VWAP",
+            "category": "Large-Cap",
+            "price": 114.2300033569336,
+            "score": 50.0
+        }
+    ],
+    "Trend Reversals": [
+        {
+            "ticker": "DRI",
+            "reason": "MACD Bullish Crossover",
+            "category": "Large-Cap",
+            "price": 217.27000427246094,
+            "score": 53.75
+        },
+        {
+            "ticker": "MTCH",
+            "reason": "MACD Bullish Crossover",
+            "category": "Mid-Cap",
+            "price": 31.829999923706055,
+            "score": 27.5
+        },
+        {
+            "ticker": "NFLX",
+            "reason": "MACD Bullish Crossover",
+            "category": "Large-Cap",
+            "price": 78.66999816894531,
+            "score": 11.25
+        },
+        {
+            "ticker": "BLK",
+            "reason": "MACD Bullish Crossover",
+            "category": "Large-Cap",
+            "price": 1093.6400146484375,
+            "score": 46.25
+        },
+        {
+            "ticker": "BR",
+            "reason": "MACD Bullish Crossover",
+            "category": "Large-Cap",
+            "price": 177.02000427246094,
+            "score": 11.25
+        }
+    ],
+    "High Volatility / Squeeze": [
+        {
+            "ticker": "AZO",
+            "reason": "BBW Compressed (0.06)",
+            "category": "Large-Cap",
+            "price": 3748.52001953125,
+            "score": 40.0
+        },
+        {
+            "ticker": "BBY",
+            "reason": "BBW Compressed (0.09)",
+            "category": "Large-Cap",
+            "price": 64.4800033569336,
+            "score": 30.0
+        },
+        {
+            "ticker": "EA",
+            "reason": "BBW Compressed (0.04)",
+            "category": "Large-Cap",
+            "price": 200.39999389648438,
+            "score": 15.0
+        },
+        {
+            "ticker": "AXP",
+            "reason": "BBW Compressed (0.09)",
+            "category": "Large-Cap",
+            "price": 346.17999267578125,
+            "score": 17.5
+        },
+        {
+            "ticker": "BRK-B",
+            "reason": "BBW Compressed (0.09)",
+            "category": "Large-Cap",
+            "price": 498.20001220703125,
+            "score": 37.5
+        },
+        {
+            "ticker": "BLK",
+            "reason": "BBW Compressed (0.09)",
+            "category": "Large-Cap",
+            "price": 1093.6400146484375,
+            "score": 46.25
+        },
+        {
+            "ticker": "ABT",
+            "reason": "BBW Compressed (0.08)",
+            "category": "Large-Cap",
+            "price": 112.20999908447266,
+            "score": 20.0
+        },
+        {
+            "ticker": "ABBV",
+            "reason": "BBW Compressed (0.07)",
+            "category": "Large-Cap",
+            "price": 224.80999755859375,
+            "score": 50.0
+        },
+        {
+            "ticker": "COR",
+            "reason": "BBW Compressed (0.09)",
+            "category": "Large-Cap",
+            "price": 361.0799865722656,
+            "score": 53.75
+        },
+        {
+            "ticker": "AME",
+            "reason": "BBW Compressed (0.09)",
+            "category": "Large-Cap",
+            "price": 233.50999450683594,
+            "score": 51.25
+        },
+        {
+            "ticker": "BA",
+            "reason": "BBW Compressed (0.10)",
+            "category": "Large-Cap",
+            "price": 232.02999877929688,
+            "score": 32.5
+        },
+        {
+            "ticker": "CTAS",
+            "reason": "BBW Compressed (0.07)",
+            "category": "Large-Cap",
+            "price": 200.02000427246094,
+            "score": 41.25
+        },
+        {
+            "ticker": "HAL",
+            "reason": "BBW Compressed (0.08)",
+            "category": "Large-Cap",
+            "price": 35.11000061035156,
+            "score": 51.25
+        },
+        {
+            "ticker": "AVY",
+            "reason": "BBW Compressed (0.08)",
+            "category": "Large-Cap",
+            "price": 196.9199981689453,
+            "score": 57.5
+        },
+        {
+            "ticker": "CTVA",
+            "reason": "BBW Compressed (0.08)",
+            "category": "Large-Cap",
+            "price": 76.30999755859375,
+            "score": 73.75
+        },
+        {
+            "ticker": "CRH",
+            "reason": "BBW Compressed (0.07)",
+            "category": "Large-Cap",
+            "price": 124.04000091552734,
+            "score": 35.0
+        },
+        {
+            "ticker": "AVB",
+            "reason": "BBW Compressed (0.05)",
+            "category": "Large-Cap",
+            "price": 177.39999389648438,
+            "score": 30.0
+        },
+        {
+            "ticker": "CPT",
+            "reason": "BBW Compressed (0.04)",
+            "category": "Large-Cap",
+            "price": 107.19999694824219,
+            "score": 7.5
+        },
+        {
+            "ticker": "EQR",
+            "reason": "BBW Compressed (0.08)",
+            "category": "Large-Cap",
+            "price": 62.599998474121094,
+            "score": 12.5
+        },
+        {
+            "ticker": "ESS",
+            "reason": "BBW Compressed (0.07)",
+            "category": "Large-Cap",
+            "price": 254.52000427246094,
+            "score": 25.0
+        },
+        {
+            "ticker": "ADM",
+            "reason": "BBW Compressed (0.06)",
+            "category": "Large-Cap",
+            "price": 67.87999725341797,
+            "score": 47.5
+        },
+        {
+            "ticker": "COST",
+            "reason": "BBW Compressed (0.08)",
+            "category": "Large-Cap",
+            "price": 985.27001953125,
+            "score": 47.5
+        },
+        {
+            "ticker": "DG",
+            "reason": "BBW Compressed (0.08)",
+            "category": "Large-Cap",
+            "price": 150.63999938964844,
+            "score": 50.0
+        }
+    ]
+}

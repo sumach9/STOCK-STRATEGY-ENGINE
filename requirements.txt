@@ -1,0 +1,15 @@
+yfinance
+pandas
+numpy
+pandas_ta
+requests
+python-dotenv
+openai
+scipy
+streamlit
+plotly
+langchain
+langchain-openai
+langchain-community
+finnhub-python
+matplotlib

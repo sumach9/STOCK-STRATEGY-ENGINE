@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.json
+!detailed_sector_report.json
+!day_trading_signals.json
+!watchlists.json
+!opportunities.json
+!options_activity.json
+!alerts.json
+# Keep JSON data for now as it's part of the dashboard demo
+node_modules/
+.streamlit/
+bash.exe.stackdump

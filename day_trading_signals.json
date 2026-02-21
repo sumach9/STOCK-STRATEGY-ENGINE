@@ -1,0 +1,2897 @@
+[
+    {
+        "ticker": "CMG",
+        "composite_confidence": 99,
+        "price": 37.54,
+        "num_signals": 1,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 36.88, vol 8.9x"
+            }
+        }
+    },
+    {
+        "ticker": "CNP",
+        "composite_confidence": 99,
+        "price": 43.01,
+        "num_signals": 2,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 42.03, vol 6.3x"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 83.3,
+                "reason": "RVOL Breakout \u2014 RVOL 6.7x, price > EMA9"
+            }
+        }
+    },
+    {
+        "ticker": "CTVA",
+        "composite_confidence": 99,
+        "price": 76.31,
+        "num_signals": 1,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 74.67, vol 7.7x"
+            }
+        }
+    },
+    {
+        "ticker": "LNT",
+        "composite_confidence": 99,
+        "price": 71.01,
+        "num_signals": 1,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 70.35, vol 13.3x"
+            }
+        }
+    },
+    {
+        "ticker": "ANET",
+        "composite_confidence": 98.6,
+        "price": 132.79,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 141.00, vol 8.4x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 78.7,
+                "reason": "VWAP Trend Short \u2014 5.7% below VWAP, EMA9<EMA20"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 77.0,
+                "reason": "Order Flow \u2014 90% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AKAM",
+        "composite_confidence": 98.5,
+        "price": 94.28,
+        "num_signals": 6,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 91.3,
+                "reason": "ORB Short \u2014 broke 102.87, vol 5.1x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 88.4,
+                "reason": "VWAP Trend Short \u2014 7.7% below VWAP, EMA9<EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 79.9,
+                "reason": "RVOL Breakout \u2014 RVOL 6.0x, price > EMA9"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 17.3 ATR below VWAP, bounce"
+            },
+            "Gap & Go": {
+                "direction": "short",
+                "confidence": 77.0,
+                "reason": "Gap & Go Short \u2014 -9.0% gap-down, vol 2.6x"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 74.6,
+                "reason": "Order Flow \u2014 82% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "APH",
+        "composite_confidence": 96.3,
+        "price": 151.01,
+        "num_signals": 1,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 91.3,
+                "reason": "ORB Long \u2014 broke 145.58, vol 5.1x"
+            }
+        }
+    },
+    {
+        "ticker": "DVN",
+        "composite_confidence": 96.3,
+        "price": 44.36,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 44.29, vol 9.0x"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 71.9,
+                "reason": "RVOL Breakout \u2014 RVOL 4.4x, price > EMA9"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 77.1,
+                "reason": "Order Flow \u2014 90% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "BDX",
+        "composite_confidence": 95.0,
+        "price": 185.38,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 180.23, vol 5.9x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 63.3,
+                "reason": "VWAP Trend Long \u2014 2.7% above VWAP, EMA9>EMA20"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 76.5,
+                "reason": "Order Flow \u2014 88% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "MMM",
+        "composite_confidence": 94.9,
+        "price": 167.08,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 171.01, vol 7.0x"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 67.0,
+                "reason": "RVOL Breakout \u2014 RVOL 3.4x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 72.6,
+                "reason": "Order Flow \u2014 75% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AFL",
+        "composite_confidence": 94.4,
+        "price": 114.03,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 114.69, vol 8.9x"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 65.8,
+                "reason": "RVOL Breakout \u2014 RVOL 3.2x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 71.6,
+                "reason": "Order Flow \u2014 72% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "EQT",
+        "composite_confidence": 94.2,
+        "price": 60.49,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 57.62, vol 6.2x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 61.5,
+                "reason": "VWAP Trend Long \u2014 2.3% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 75.4,
+                "reason": "RVOL Breakout \u2014 RVOL 5.1x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "AVB",
+        "composite_confidence": 93.8,
+        "price": 177.4,
+        "num_signals": 2,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 176.94, vol 8.9x"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 72.5,
+                "reason": "Order Flow \u2014 75% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AZO",
+        "composite_confidence": 93.8,
+        "price": 3752.55,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 3811.23, vol 8.5x"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 69.7,
+                "reason": "RVOL Breakout \u2014 RVOL 3.9x, price > EMA9"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 71.7,
+                "reason": "Order Flow \u2014 72% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "EQIX",
+        "composite_confidence": 93.8,
+        "price": 928.09,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 945.40, vol 17.0x"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 5.7 ATR below VWAP, bounce"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 75.0,
+                "reason": "Order Flow \u2014 83% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "ABNB",
+        "composite_confidence": 93.7,
+        "price": 127.87,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 127.01, vol 5.6x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 65.6,
+                "reason": "VWAP Trend Long \u2014 3.1% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 69.2,
+                "reason": "RVOL Breakout \u2014 RVOL 3.8x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "CSGP",
+        "composite_confidence": 93.7,
+        "price": 49.88,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 45.90, vol 27.9x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 71.7,
+                "reason": "VWAP Trend Long \u2014 4.3% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 68.1,
+                "reason": "RVOL Breakout \u2014 RVOL 3.6x, price > EMA9"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 13.2 ATR from VWAP, exhaustion vol"
+            }
+        }
+    },
+    {
+        "ticker": "BIIB",
+        "composite_confidence": 93.5,
+        "price": 191.96,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 195.88, vol 6.2x"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 12.3 ATR below VWAP, bounce"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 74.1,
+                "reason": "Order Flow \u2014 80% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AAPL",
+        "composite_confidence": 93.4,
+        "price": 264.59,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 262.23, vol 33.6x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 55.6,
+                "reason": "VWAP Trend Long \u2014 1.1% above VWAP, EMA9>EMA20"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 77.8,
+                "reason": "Order Flow \u2014 93% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "ARES",
+        "composite_confidence": 93.4,
+        "price": 123.12,
+        "num_signals": 2,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 132.66, vol 9.7x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 71.9,
+                "reason": "VWAP Trend Short \u2014 4.4% below VWAP, EMA9<EMA20"
+            }
+        }
+    },
+    {
+        "ticker": "CTRA",
+        "composite_confidence": 93.3,
+        "price": 31.29,
+        "num_signals": 5,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 31.16, vol 7.8x"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 72.1,
+                "reason": "RVOL Breakout \u2014 RVOL 4.4x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 2.7 ATR below VWAP, bounce"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 74.2,
+                "reason": "Order Flow \u2014 81% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "CF",
+        "composite_confidence": 93.2,
+        "price": 97.19,
+        "num_signals": 2,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 93.88, vol 10.4x"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 71.4,
+                "reason": "Order Flow \u2014 71% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "CPB",
+        "composite_confidence": 93.2,
+        "price": 26.83,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 79.2,
+                "reason": "ORB Short \u2014 broke 29.00, vol 3.9x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 71.9,
+                "reason": "VWAP Trend Short \u2014 4.4% below VWAP, EMA9<EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 81.9,
+                "reason": "RVOL Breakout \u2014 RVOL 6.4x, price > EMA9"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 24.7 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "EOG",
+        "composite_confidence": 93.2,
+        "price": 123.07,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 119.71, vol 6.1x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 54.6,
+                "reason": "VWAP Trend Long \u2014 0.9% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 83.0,
+                "reason": "RVOL Breakout \u2014 RVOL 6.6x, price > EMA9"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 4.3 ATR from VWAP, exhaustion vol"
+            }
+        }
+    },
+    {
+        "ticker": "ACN",
+        "composite_confidence": 93.0,
+        "price": 215.49,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 220.91, vol 5.6x"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 72.2,
+                "reason": "RVOL Breakout \u2014 RVOL 4.4x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 6.4 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "ADI",
+        "composite_confidence": 93.0,
+        "price": 354.92,
+        "num_signals": 5,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 333.54, vol 9.8x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 65.6,
+                "reason": "VWAP Trend Long \u2014 3.1% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 65.6,
+                "reason": "RVOL Breakout \u2014 RVOL 3.1x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 73.6,
+                "reason": "Order Flow \u2014 79% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "ALB",
+        "composite_confidence": 93.0,
+        "price": 168.43,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 166.25, vol 9.0x"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 66.1,
+                "reason": "RVOL Breakout \u2014 RVOL 3.2x, price > EMA9"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 73.0,
+                "reason": "Order Flow \u2014 77% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "A",
+        "composite_confidence": 92.6,
+        "price": 122.92,
+        "num_signals": 5,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 125.01, vol 18.0x"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 68.3,
+                "reason": "RVOL Breakout \u2014 RVOL 3.7x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 7.1 ATR below VWAP, bounce"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 74.6,
+                "reason": "Order Flow \u2014 82% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "MTCH",
+        "composite_confidence": 92.6,
+        "price": 31.85,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 30.24, vol 6.5x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 72.7,
+                "reason": "VWAP Trend Long \u2014 4.5% above VWAP, EMA9>EMA20"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "TECH",
+        "composite_confidence": 92.6,
+        "price": 57.52,
+        "num_signals": 5,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 91.6,
+                "reason": "ORB Short \u2014 broke 59.27, vol 5.2x"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 70.7,
+                "reason": "RVOL Breakout \u2014 RVOL 4.1x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 7.5 ATR below VWAP, bounce"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 75.9,
+                "reason": "Order Flow \u2014 86% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "GOOGL",
+        "composite_confidence": 92.5,
+        "price": 315.0,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 308.63, vol 5.6x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 63.2,
+                "reason": "VWAP Trend Long \u2014 2.6% above VWAP, EMA9>EMA20"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 14.9 ATR from VWAP, exhaustion vol"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 71.8,
+                "reason": "Order Flow \u2014 73% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "CHRW",
+        "composite_confidence": 92.4,
+        "price": 190.01,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 174.92, vol 8.5x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 77.3,
+                "reason": "VWAP Trend Long \u2014 5.5% above VWAP, EMA9>EMA20"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 18.7 ATR from VWAP, exhaustion vol"
+            }
+        }
+    },
+    {
+        "ticker": "BLDR",
+        "composite_confidence": 92.3,
+        "price": 110.53,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 90.0,
+                "reason": "ORB Short \u2014 broke 119.02, vol 5.0x"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 74.2,
+                "reason": "RVOL Breakout \u2014 RVOL 4.8x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 20.1 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "XLC",
+        "composite_confidence": 92.3,
+        "price": 116.79,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 114.46, vol 9.6x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 57.5,
+                "reason": "VWAP Trend Long \u2014 1.5% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 71.8,
+                "reason": "RVOL Breakout \u2014 RVOL 4.4x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "XLP",
+        "composite_confidence": 92.3,
+        "price": 87.88,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 92.4,
+                "reason": "ORB Short \u2014 broke 88.62, vol 5.2x"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 71.7,
+                "reason": "RVOL Breakout \u2014 RVOL 4.3x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 6.7 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "LYV",
+        "composite_confidence": 92.2,
+        "price": 162.73,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 158.65, vol 10.3x"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 5.7 ATR from VWAP, exhaustion vol"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 76.7,
+                "reason": "Order Flow \u2014 89% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "XLF",
+        "composite_confidence": 92.2,
+        "price": 52.49,
+        "num_signals": 5,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 51.76, vol 7.5x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 53.6,
+                "reason": "VWAP Trend Long \u2014 0.7% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 72.2,
+                "reason": "RVOL Breakout \u2014 RVOL 4.4x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 75.4,
+                "reason": "Order Flow \u2014 85% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "XLY",
+        "composite_confidence": 92.0,
+        "price": 117.45,
+        "num_signals": 5,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 116.31, vol 5.8x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 54.3,
+                "reason": "VWAP Trend Long \u2014 0.9% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 71.6,
+                "reason": "RVOL Breakout \u2014 RVOL 4.3x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 73.9,
+                "reason": "Order Flow \u2014 80% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AMT",
+        "composite_confidence": 91.9,
+        "price": 187.39,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 188.10, vol 6.2x"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 67.7,
+                "reason": "RVOL Breakout \u2014 RVOL 3.5x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 6.8 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "CL",
+        "composite_confidence": 91.9,
+        "price": 95.11,
+        "num_signals": 5,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 95.40, vol 6.6x"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 68.2,
+                "reason": "RVOL Breakout \u2014 RVOL 3.6x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 4.8 ATR below VWAP, bounce"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 71.5,
+                "reason": "Order Flow \u2014 72% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "XLE",
+        "composite_confidence": 91.9,
+        "price": 54.9,
+        "num_signals": 5,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 54.39, vol 5.8x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 52.8,
+                "reason": "VWAP Trend Long \u2014 0.6% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 75.5,
+                "reason": "RVOL Breakout \u2014 RVOL 5.1x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 71.3,
+                "reason": "Order Flow \u2014 71% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "FOXA",
+        "composite_confidence": 91.6,
+        "price": 57.04,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 56.79, vol 9.1x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 53.6,
+                "reason": "VWAP Trend Long \u2014 0.7% above VWAP, EMA9>EMA20"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 73.0,
+                "reason": "Order Flow \u2014 77% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "ED",
+        "composite_confidence": 91.5,
+        "price": 109.82,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 110.98, vol 13.0x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 59.3,
+                "reason": "VWAP Trend Short \u2014 1.9% below VWAP, EMA9<EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 71.6,
+                "reason": "RVOL Breakout \u2014 RVOL 4.3x, price > EMA9"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 10.1 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "ALLE",
+        "composite_confidence": 91.3,
+        "price": 162.14,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 177.18, vol 6.7x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 62.3,
+                "reason": "VWAP Trend Short \u2014 2.5% below VWAP, EMA9<EMA20"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 71.7,
+                "reason": "Order Flow \u2014 72% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AMCR",
+        "composite_confidence": 91.3,
+        "price": 50.5,
+        "num_signals": 5,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 50.33, vol 10.9x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 57.1,
+                "reason": "VWAP Trend Long \u2014 1.4% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 67.0,
+                "reason": "RVOL Breakout \u2014 RVOL 3.4x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 72.6,
+                "reason": "Order Flow \u2014 75% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "BR",
+        "composite_confidence": 91.3,
+        "price": 177.06,
+        "num_signals": 5,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 173.14, vol 5.5x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 55.6,
+                "reason": "VWAP Trend Long \u2014 1.1% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 67.7,
+                "reason": "RVOL Breakout \u2014 RVOL 3.5x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 73.1,
+                "reason": "Order Flow \u2014 77% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "CAG",
+        "composite_confidence": 91.2,
+        "price": 18.47,
+        "num_signals": 5,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 90.2,
+                "reason": "ORB Short \u2014 broke 19.62, vol 5.0x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 59.0,
+                "reason": "VWAP Trend Short \u2014 1.8% below VWAP, EMA9<EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 75.5,
+                "reason": "RVOL Breakout \u2014 RVOL 5.1x, price > EMA9"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 8.7 ATR below VWAP, bounce"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 71.5,
+                "reason": "Order Flow \u2014 72% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "GOOG",
+        "composite_confidence": 91.1,
+        "price": 314.8,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 308.89, vol 11.1x"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 13.2 ATR from VWAP, exhaustion vol"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 73.4,
+                "reason": "Order Flow \u2014 78% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AXP",
+        "composite_confidence": 90.9,
+        "price": 346.17,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 344.87, vol 6.4x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 55.8,
+                "reason": "VWAP Trend Long \u2014 1.2% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 67.7,
+                "reason": "RVOL Breakout \u2014 RVOL 3.5x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "DRI",
+        "composite_confidence": 90.8,
+        "price": 217.28,
+        "num_signals": 5,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 215.03, vol 10.0x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 54.5,
+                "reason": "VWAP Trend Long \u2014 0.9% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 68.6,
+                "reason": "RVOL Breakout \u2014 RVOL 3.7x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 71.1,
+                "reason": "Order Flow \u2014 70% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AVY",
+        "composite_confidence": 90.7,
+        "price": 196.93,
+        "num_signals": 5,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 196.81, vol 19.7x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 54.5,
+                "reason": "VWAP Trend Long \u2014 0.9% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 65.6,
+                "reason": "RVOL Breakout \u2014 RVOL 3.1x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 73.5,
+                "reason": "Order Flow \u2014 78% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "ABBV",
+        "composite_confidence": 90.6,
+        "price": 224.86,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 228.00, vol 9.4x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 59.0,
+                "reason": "VWAP Trend Short \u2014 1.8% below VWAP, EMA9<EMA20"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 72.9,
+                "reason": "Order Flow \u2014 76% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AME",
+        "composite_confidence": 90.1,
+        "price": 233.57,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 230.64, vol 10.0x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 52.9,
+                "reason": "VWAP Trend Long \u2014 0.6% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 67.5,
+                "reason": "RVOL Breakout \u2014 RVOL 3.5x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "AOS",
+        "composite_confidence": 90.1,
+        "price": 77.8,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 79.19, vol 9.3x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 56.6,
+                "reason": "VWAP Trend Short \u2014 1.3% below VWAP, EMA9<EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 68.9,
+                "reason": "RVOL Breakout \u2014 RVOL 3.8x, price > EMA9"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 9.7 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "MO",
+        "composite_confidence": 90.1,
+        "price": 67.57,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 67.12, vol 6.2x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 53.0,
+                "reason": "VWAP Trend Long \u2014 0.6% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 67.5,
+                "reason": "RVOL Breakout \u2014 RVOL 3.5x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "AEE",
+        "composite_confidence": 90.0,
+        "price": 110.04,
+        "num_signals": 2,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 109.99, vol 13.9x"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "DLR",
+        "composite_confidence": 89.9,
+        "price": 175.67,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 178.99, vol 8.7x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 57.6,
+                "reason": "VWAP Trend Short \u2014 1.5% below VWAP, EMA9<EMA20"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 72.2,
+                "reason": "Order Flow \u2014 74% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AES",
+        "composite_confidence": 89.8,
+        "price": 16.5,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 16.29, vol 7.6x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 54.4,
+                "reason": "VWAP Trend Long \u2014 0.9% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 69.6,
+                "reason": "RVOL Breakout \u2014 RVOL 3.9x, price > EMA9"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 3.5 ATR from VWAP, exhaustion vol"
+            }
+        }
+    },
+    {
+        "ticker": "ARE",
+        "composite_confidence": 89.8,
+        "price": 53.64,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 51.79, vol 7.1x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 51.3,
+                "reason": "VWAP Trend Long \u2014 0.3% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 67.7,
+                "reason": "RVOL Breakout \u2014 RVOL 3.5x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "CLX",
+        "composite_confidence": 89.7,
+        "price": 123.6,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 123.62, vol 6.7x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 51.9,
+                "reason": "VWAP Trend Long \u2014 0.4% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 66.8,
+                "reason": "RVOL Breakout \u2014 RVOL 3.4x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "APO",
+        "composite_confidence": 89.4,
+        "price": 119.76,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 74.1,
+                "reason": "ORB Short \u2014 broke 123.82, vol 3.4x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 56.8,
+                "reason": "VWAP Trend Short \u2014 1.4% below VWAP, EMA9<EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 86.7,
+                "reason": "RVOL Breakout \u2014 RVOL 7.3x, price > EMA9"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 5.8 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "APTV",
+        "composite_confidence": 89.3,
+        "price": 79.56,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 82.96, vol 11.1x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 67.8,
+                "reason": "VWAP Trend Short \u2014 3.6% below VWAP, EMA9<EMA20"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 19.2 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "CPT",
+        "composite_confidence": 88.8,
+        "price": 107.19,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 107.97, vol 13.3x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 54.7,
+                "reason": "VWAP Trend Short \u2014 0.9% below VWAP, EMA9<EMA20"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 71.8,
+                "reason": "Order Flow \u2014 73% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "BXP",
+        "composite_confidence": 88.7,
+        "price": 60.89,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 60.84, vol 10.1x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 53.4,
+                "reason": "VWAP Trend Short \u2014 0.7% below VWAP, EMA9<EMA20"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 72.7,
+                "reason": "Order Flow \u2014 76% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AMAT",
+        "composite_confidence": 88.6,
+        "price": 375.35,
+        "num_signals": 4,
+        "strategies": {
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 63.7,
+                "reason": "VWAP Trend Long \u2014 2.7% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 68.3,
+                "reason": "RVOL Breakout \u2014 RVOL 3.7x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 77.4,
+                "reason": "Order Flow \u2014 91% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "BKNG",
+        "composite_confidence": 88.6,
+        "price": 4077.72,
+        "num_signals": 5,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 87.5,
+                "reason": "ORB Short \u2014 broke 4080.39, vol 4.8x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 50.1,
+                "reason": "VWAP Trend Long \u2014 0.0% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 66.6,
+                "reason": "RVOL Breakout \u2014 RVOL 3.3x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 73.8,
+                "reason": "Order Flow \u2014 79% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "DOW",
+        "composite_confidence": 88.3,
+        "price": 30.52,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 32.32, vol 7.7x"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 9.6 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "FANG",
+        "composite_confidence": 88.3,
+        "price": 176.0,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 168.66, vol 11.0x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "VWAP Trend Long \u2014 2.0% above VWAP, EMA9>EMA20"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "BA",
+        "composite_confidence": 88.2,
+        "price": 232.03,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 240.72, vol 6.7x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 64.6,
+                "reason": "VWAP Trend Short \u2014 2.9% below VWAP, EMA9<EMA20"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 17.0 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "AIG",
+        "composite_confidence": 87.8,
+        "price": 80.42,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 79.26, vol 7.8x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 58.3,
+                "reason": "VWAP Trend Long \u2014 1.7% above VWAP, EMA9>EMA20"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "XLI",
+        "composite_confidence": 87.7,
+        "price": 177.26,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 75.9,
+                "reason": "ORB Long \u2014 broke 174.35, vol 3.6x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 55.2,
+                "reason": "VWAP Trend Long \u2014 1.0% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 74.8,
+                "reason": "RVOL Breakout \u2014 RVOL 5.0x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "XLRE",
+        "composite_confidence": 87.6,
+        "price": 43.55,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 82.2,
+                "reason": "ORB Long \u2014 broke 43.24, vol 4.2x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 51.3,
+                "reason": "VWAP Trend Long \u2014 0.3% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 72.0,
+                "reason": "RVOL Breakout \u2014 RVOL 4.4x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "EXE",
+        "composite_confidence": 87.5,
+        "price": 108.01,
+        "num_signals": 2,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 103.75, vol 7.2x"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 18.0 ATR from VWAP, exhaustion vol"
+            }
+        }
+    },
+    {
+        "ticker": "BAX",
+        "composite_confidence": 87.4,
+        "price": 21.58,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 88.7,
+                "reason": "ORB Long \u2014 broke 19.24, vol 4.9x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 68.4,
+                "reason": "VWAP Trend Long \u2014 3.7% above VWAP, EMA9>EMA20"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 11.8 ATR from VWAP, exhaustion vol"
+            }
+        }
+    },
+    {
+        "ticker": "CHTR",
+        "composite_confidence": 87.3,
+        "price": 230.09,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 236.76, vol 9.0x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 61.9,
+                "reason": "VWAP Trend Short \u2014 2.4% below VWAP, EMA9<EMA20"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 10.3 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "FOX",
+        "composite_confidence": 87.0,
+        "price": 52.25,
+        "num_signals": 4,
+        "strategies": {
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 53.9,
+                "reason": "VWAP Trend Long \u2014 0.8% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 70.8,
+                "reason": "RVOL Breakout \u2014 RVOL 4.2x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 78.2,
+                "reason": "Order Flow \u2014 94% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "ALGN",
+        "composite_confidence": 86.8,
+        "price": 190.09,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 186.56, vol 13.1x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 55.4,
+                "reason": "VWAP Trend Long \u2014 1.1% above VWAP, EMA9>EMA20"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "CMS",
+        "composite_confidence": 86.6,
+        "price": 75.88,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 75.44, vol 9.0x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 50.2,
+                "reason": "VWAP Trend Short \u2014 0.0% below VWAP, EMA9<EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 69.5,
+                "reason": "RVOL Breakout \u2014 RVOL 3.9x, price > EMA9"
+            }
+        }
+    },
+    {
+        "ticker": "AJG",
+        "composite_confidence": 86.5,
+        "price": 216.5,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 208.79, vol 6.0x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 59.4,
+                "reason": "VWAP Trend Long \u2014 1.9% above VWAP, EMA9>EMA20"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 10.3 ATR from VWAP, exhaustion vol"
+            }
+        }
+    },
+    {
+        "ticker": "ATO",
+        "composite_confidence": 86.5,
+        "price": 181.01,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 178.46, vol 8.0x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 54.4,
+                "reason": "VWAP Trend Long \u2014 0.9% above VWAP, EMA9>EMA20"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "APA",
+        "composite_confidence": 86.4,
+        "price": 29.08,
+        "num_signals": 2,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 80.0,
+                "reason": "ORB Long \u2014 broke 27.32, vol 4.0x"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 72.9,
+                "reason": "Order Flow \u2014 76% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "KO",
+        "composite_confidence": 86.4,
+        "price": 79.84,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 79.26, vol 7.5x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 54.3,
+                "reason": "VWAP Trend Long \u2014 0.9% above VWAP, EMA9>EMA20"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "BKR",
+        "composite_confidence": 86.2,
+        "price": 62.22,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 61.17, vol 6.3x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 58.5,
+                "reason": "VWAP Trend Long \u2014 1.7% above VWAP, EMA9>EMA20"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 12.0 ATR from VWAP, exhaustion vol"
+            }
+        }
+    },
+    {
+        "ticker": "XLU",
+        "composite_confidence": 86.2,
+        "price": 46.34,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 74.0,
+                "reason": "ORB Long \u2014 broke 45.87, vol 3.4x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 51.7,
+                "reason": "VWAP Trend Long \u2014 0.3% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 73.9,
+                "reason": "RVOL Breakout \u2014 RVOL 4.8x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "ACGL",
+        "composite_confidence": 85.3,
+        "price": 98.48,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 98.66, vol 10.6x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 51.0,
+                "reason": "VWAP Trend Long \u2014 0.2% above VWAP, EMA9>EMA20"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "CHD",
+        "composite_confidence": 85.3,
+        "price": 103.09,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 100.86, vol 7.6x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 55.9,
+                "reason": "VWAP Trend Long \u2014 1.2% above VWAP, EMA9>EMA20"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 9.8 ATR from VWAP, exhaustion vol"
+            }
+        }
+    },
+    {
+        "ticker": "CVNA",
+        "composite_confidence": 85.3,
+        "price": 336.85,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 79.6,
+                "reason": "ORB Short \u2014 broke 340.00, vol 4.0x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 52.5,
+                "reason": "VWAP Trend Short \u2014 0.5% below VWAP, EMA9<EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 78.7,
+                "reason": "RVOL Breakout \u2014 RVOL 5.7x, price > EMA9"
+            }
+        }
+    },
+    {
+        "ticker": "XLB",
+        "composite_confidence": 85.3,
+        "price": 52.97,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 52.85, vol 7.9x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 50.8,
+                "reason": "VWAP Trend Long \u2014 0.2% above VWAP, EMA9>EMA20"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "CEG",
+        "composite_confidence": 84.7,
+        "price": 294.84,
+        "num_signals": 1,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 79.7,
+                "reason": "ORB Long \u2014 broke 283.19, vol 4.0x"
+            }
+        }
+    },
+    {
+        "ticker": "ADM",
+        "composite_confidence": 84.6,
+        "price": 67.88,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 95,
+                "reason": "ORB Short \u2014 broke 68.45, vol 6.3x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 53.7,
+                "reason": "VWAP Trend Short \u2014 0.7% below VWAP, EMA9<EMA20"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 3.4 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "AON",
+        "composite_confidence": 84.5,
+        "price": 325.14,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 318.53, vol 6.0x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 53.5,
+                "reason": "VWAP Trend Long \u2014 0.7% above VWAP, EMA9>EMA20"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 3.8 ATR from VWAP, exhaustion vol"
+            }
+        }
+    },
+    {
+        "ticker": "XLK",
+        "composite_confidence": 84.4,
+        "price": 140.9,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 68.9,
+                "reason": "ORB Long \u2014 broke 140.22, vol 2.9x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 53.6,
+                "reason": "VWAP Trend Long \u2014 0.7% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 69.9,
+                "reason": "RVOL Breakout \u2014 RVOL 4.0x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "T",
+        "composite_confidence": 84.3,
+        "price": 27.99,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 82.8,
+                "reason": "ORB Short \u2014 broke 28.48, vol 4.3x"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 9.5 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "ADBE",
+        "composite_confidence": 84.2,
+        "price": 258.6,
+        "num_signals": 3,
+        "strategies": {
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 65.5,
+                "reason": "RVOL Breakout \u2014 RVOL 3.1x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 77.2,
+                "reason": "Order Flow \u2014 91% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AMZN",
+        "composite_confidence": 84.1,
+        "price": 210.18,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 74.7,
+                "reason": "ORB Long \u2014 broke 199.53, vol 3.5x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 67.5,
+                "reason": "VWAP Trend Long \u2014 3.5% above VWAP, EMA9>EMA20"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "DD",
+        "composite_confidence": 83.9,
+        "price": 50.41,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 95,
+                "reason": "ORB Long \u2014 broke 49.74, vol 8.1x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 51.8,
+                "reason": "VWAP Trend Short \u2014 0.4% below VWAP, EMA9<EMA20"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 2.4 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "CCL",
+        "composite_confidence": 83.8,
+        "price": 32.0,
+        "num_signals": 4,
+        "strategies": {
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 54.1,
+                "reason": "VWAP Trend Short \u2014 0.8% below VWAP, EMA9<EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 68.9,
+                "reason": "RVOL Breakout \u2014 RVOL 3.8x, price > EMA9"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 3.2 ATR below VWAP, bounce"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 72.2,
+                "reason": "Order Flow \u2014 74% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "CBRE",
+        "composite_confidence": 83.4,
+        "price": 147.01,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 88.1,
+                "reason": "ORB Long \u2014 broke 140.60, vol 4.8x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 57.0,
+                "reason": "VWAP Trend Long \u2014 1.4% above VWAP, EMA9>EMA20"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 4.5 ATR from VWAP, exhaustion vol"
+            }
+        }
+    },
+    {
+        "ticker": "AMP",
+        "composite_confidence": 83.1,
+        "price": 471.85,
+        "num_signals": 3,
+        "strategies": {
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 65.3,
+                "reason": "RVOL Breakout \u2014 RVOL 3.1x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 74.1,
+                "reason": "Order Flow \u2014 80% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "BF-B",
+        "composite_confidence": 83.0,
+        "price": 29.99,
+        "num_signals": 3,
+        "strategies": {
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 58.3,
+                "reason": "VWAP Trend Long \u2014 1.7% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 68.5,
+                "reason": "RVOL Breakout \u2014 RVOL 3.7x, price > EMA9"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 77.1,
+                "reason": "Order Flow \u2014 90% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AMD",
+        "composite_confidence": 82.8,
+        "price": 200.12,
+        "num_signals": 4,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "short",
+                "confidence": 69.3,
+                "reason": "ORB Short \u2014 broke 203.88, vol 2.9x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 54.9,
+                "reason": "VWAP Trend Short \u2014 1.0% below VWAP, EMA9<EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 67.1,
+                "reason": "RVOL Breakout \u2014 RVOL 3.4x, price > EMA9"
+            },
+            "Reversal Fade": {
+                "direction": "long",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Long \u2014 4.8 ATR below VWAP, bounce"
+            }
+        }
+    },
+    {
+        "ticker": "BALL",
+        "composite_confidence": 82.8,
+        "price": 66.52,
+        "num_signals": 3,
+        "strategies": {
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 65.2,
+                "reason": "RVOL Breakout \u2014 RVOL 3.0x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 73.2,
+                "reason": "Order Flow \u2014 77% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AMGN",
+        "composite_confidence": 82.1,
+        "price": 374.75,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 85.6,
+                "reason": "ORB Long \u2014 broke 367.91, vol 4.6x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 50.7,
+                "reason": "VWAP Trend Long \u2014 0.1% above VWAP, EMA9>EMA20"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "ALL",
+        "composite_confidence": 81.7,
+        "price": 206.42,
+        "num_signals": 2,
+        "strategies": {
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 78.4,
+                "reason": "RVOL Breakout \u2014 RVOL 5.7x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "APP",
+        "composite_confidence": 80.8,
+        "price": 418.77,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 65.8,
+                "reason": "ORB Long \u2014 broke 375.87, vol 2.6x"
+            },
+            "Reversal Fade": {
+                "direction": "short",
+                "confidence": 60.0,
+                "reason": "Reversal Fade Short \u2014 8.0 ATR from VWAP, exhaustion vol"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 71.5,
+                "reason": "Order Flow \u2014 72% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "AEP",
+        "composite_confidence": 80.5,
+        "price": 129.38,
+        "num_signals": 1,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 75.5,
+                "reason": "ORB Long \u2014 broke 128.78, vol 3.5x"
+            }
+        }
+    },
+    {
+        "ticker": "ADP",
+        "composite_confidence": 79.1,
+        "price": 214.43,
+        "num_signals": 3,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 67.9,
+                "reason": "ORB Long \u2014 broke 212.00, vol 2.8x"
+            },
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 51.1,
+                "reason": "VWAP Trend Long \u2014 0.2% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 73.2,
+                "reason": "RVOL Breakout \u2014 RVOL 4.6x, price > EMA9"
+            }
+        }
+    },
+    {
+        "ticker": "COP",
+        "composite_confidence": 78.0,
+        "price": 110.54,
+        "num_signals": 2,
+        "strategies": {
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            },
+            "Order Flow": {
+                "direction": "long",
+                "confidence": 71.0,
+                "reason": "Order Flow \u2014 70% buy pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "CMCSA",
+        "composite_confidence": 77.7,
+        "price": 31.34,
+        "num_signals": 1,
+        "strategies": {
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 72.7,
+                "reason": "Order Flow \u2014 76% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "CVX",
+        "composite_confidence": 77.0,
+        "price": 183.93,
+        "num_signals": 3,
+        "strategies": {
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 51.7,
+                "reason": "VWAP Trend Long \u2014 0.3% above VWAP, EMA9>EMA20"
+            },
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 69.2,
+                "reason": "RVOL Breakout \u2014 RVOL 3.8x, price > EMA9"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "BBY",
+        "composite_confidence": 76.9,
+        "price": 64.49,
+        "num_signals": 1,
+        "strategies": {
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 71.9,
+                "reason": "Order Flow \u2014 73% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "CRH",
+        "composite_confidence": 75.5,
+        "price": 124.06,
+        "num_signals": 2,
+        "strategies": {
+            "Opening Range Breakout": {
+                "direction": "long",
+                "confidence": 80.8,
+                "reason": "ORB Long \u2014 broke 123.71, vol 4.1x"
+            },
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 50.2,
+                "reason": "VWAP Trend Short \u2014 0.0% below VWAP, EMA9<EMA20"
+            }
+        }
+    },
+    {
+        "ticker": "BSX",
+        "composite_confidence": 74.5,
+        "price": 74.57,
+        "num_signals": 2,
+        "strategies": {
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 57.3,
+                "reason": "VWAP Trend Short \u2014 1.5% below VWAP, EMA9<EMA20"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 71.7,
+                "reason": "Order Flow \u2014 72% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "BG",
+        "composite_confidence": 73.0,
+        "price": 121.98,
+        "num_signals": 2,
+        "strategies": {
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 51.3,
+                "reason": "VWAP Trend Short \u2014 0.3% below VWAP, EMA9<EMA20"
+            },
+            "Order Flow": {
+                "direction": "short",
+                "confidence": 74.7,
+                "reason": "Order Flow \u2014 82% sell pressure (last 20 bars)"
+            }
+        }
+    },
+    {
+        "ticker": "CCI",
+        "composite_confidence": 71.7,
+        "price": 88.02,
+        "num_signals": 1,
+        "strategies": {
+            "RVOL Breakout": {
+                "direction": "long",
+                "confidence": 66.7,
+                "reason": "RVOL Breakout \u2014 RVOL 3.3x, price > EMA9"
+            }
+        }
+    },
+    {
+        "ticker": "ABT",
+        "composite_confidence": 70.0,
+        "price": 112.21,
+        "num_signals": 1,
+        "strategies": {
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "EA",
+        "composite_confidence": 68.2,
+        "price": 200.56,
+        "num_signals": 2,
+        "strategies": {
+            "VWAP Trend": {
+                "direction": "long",
+                "confidence": 51.3,
+                "reason": "VWAP Trend Long \u2014 0.3% above VWAP, EMA9>EMA20"
+            },
+            "Pullback Scalp": {
+                "direction": "long",
+                "confidence": 65.0,
+                "reason": "Pullback Scalp \u2014 bounce off VWAP/EMA9 in uptrend"
+            }
+        }
+    },
+    {
+        "ticker": "AWK",
+        "composite_confidence": 63.7,
+        "price": 129.38,
+        "num_signals": 1,
+        "strategies": {
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 58.7,
+                "reason": "VWAP Trend Short \u2014 1.7% below VWAP, EMA9<EMA20"
+            }
+        }
+    },
+    {
+        "ticker": "AXON",
+        "composite_confidence": 55.7,
+        "price": 434.03,
+        "num_signals": 1,
+        "strategies": {
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 50.7,
+                "reason": "VWAP Trend Short \u2014 0.1% below VWAP, EMA9<EMA20"
+            }
+        }
+    },
+    {
+        "ticker": "APD",
+        "composite_confidence": 55.2,
+        "price": 281.27,
+        "num_signals": 1,
+        "strategies": {
+            "VWAP Trend": {
+                "direction": "short",
+                "confidence": 50.2,
+                "reason": "VWAP Trend Short \u2014 0.0% below VWAP, EMA9<EMA20"
+            }
+        }
+    }
+]

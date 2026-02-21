@@ -1,0 +1,44 @@
+[
+    {
+        "Ticker": "AAPL",
+        "Setup": "Pullback in Uptrend",
+        "Score": 22.5,
+        "Close": 264.58,
+        "Volume": 42044900
+    },
+    {
+        "Ticker": "JNJ",
+        "Setup": "Momentum Breakout",
+        "Score": 52.0,
+        "Close": 242.49,
+        "Volume": 13564700
+    },
+    {
+        "Ticker": "JPM",
+        "Setup": "Pullback in Uptrend",
+        "Score": 40.0,
+        "Close": 310.79,
+        "Volume": 7790700
+    },
+    {
+        "Ticker": "LLY",
+        "Setup": "Pullback in Uptrend",
+        "Score": 22.5,
+        "Close": 1009.52,
+        "Volume": 3247500
+    },
+    {
+        "Ticker": "MA",
+        "Setup": "Volatility Squeeze (Coiling)",
+        "Score": 10.0,
+        "Close": 526.41,
+        "Volume": 2838500
+    },
+    {
+        "Ticker": "NVDA",
+        "Setup": "Pullback in Uptrend",
+        "Score": 45.0,
+        "Close": 189.82,
+        "Volume": 178143900
+    }
+]
