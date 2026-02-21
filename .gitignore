@@ -9,6 +9,7 @@ __pycache__/
 !opportunities.json
 !options_activity.json
 !alerts.json
+!rotation_results.json
 # Keep JSON data for now as it's part of the dashboard demo
 node_modules/
 .streamlit/

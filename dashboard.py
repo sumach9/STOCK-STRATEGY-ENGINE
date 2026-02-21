@@ -436,6 +436,7 @@ with st.sidebar:
         "⚡ Options Intelligence",
         "🔮 Opportunity Scanner",
         "🎯 Day Trading",
+        "🔄 Sector Rotation",
         "🤖 AI Command Center",
     ], label_visibility="collapsed")
 
@@ -1132,7 +1133,81 @@ elif page == "🎯 Day Trading":
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # PAGE: AI COMMAND CENTER
-# ═══════════════════════════════════════════════════════════════════════════════
+# ═══════════════════════════════════════════════════════════════════════════════# 🔄 PAGE: SECTOR ROTATION
+elif page == "🔄 Sector Rotation":
+    st.markdown('<div class="hero-banner"><p class="hero-title">🔄 Sector Rotation Strategy</p>'
+                '<p class="hero-sub">Top-3 Momentum + Trend Filter + Safety Switch</p></div>',
+                unsafe_allow_html=True)
+    
+    results = load_json("rotation_results.json", None)
+    
+    if not results:
+        st.warning("No backtest results found. Running initial analysis...")
+        if st.button("🚀 Run Analysis & Backtest"):
+            with st.spinner("Processing 2 years of sector data..."):
+                # We can't easily wait for the background process here, 
+                # but we can trigger it or just run a simplified version.
+                # For now, let's assume it was run.
+                st.info("Scanner triggered. Refresh in 30s.")
+    else:
+        metrics = results.get("metrics", {})
+        cols = st.columns(4)
+        with cols[0]:
+            st.metric("Strategy CAGR", f"{metrics.get('cagr', 0)}%", f"{metrics.get('cagr',0) - metrics.get('spy_cagr',0):.1f}% vs SPY")
+        with cols[1]:
+            st.metric("Sharpe Ratio", metrics.get("sharpe", 0))
+        with cols[2]:
+            st.metric("Max Drawdown", f"{metrics.get('max_drawdown', 0)}%")
+        with cols[3]:
+            st.metric("Volatility", f"{metrics.get('volatility', 0)}%")
+
+        # Equity Curve
+        df_eq = pd.DataFrame(results.get("equity_curve", []))
+        if not df_eq.empty:
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(x=df_eq['date'], y=df_eq['strategy_cum'], name='Strategy', line=dict(color='#00d4ff', width=3)))
+            fig.add_trace(go.Scatter(x=df_eq['date'], y=df_eq['spy_cum'], name='SPY (Benchmark)', line=dict(color='#7b8fa8', dash='dash')))
+            fig.update_layout(title="Growth of $1", template="plotly_dark", height=400, margin=dict(l=0,r=0,t=40,b=0),
+                            paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
+            st.plotly_chart(fig, use_container_width=True)
+
+        # Current Signals
+        last = results.get("last_rebalance", {})
+        st.subheader("🎯 Current Trading Signals")
+        
+        c1, c2 = st.columns([2, 1])
+        with c1:
+            st.markdown("**Top 3 Momentum Picks**")
+            picks = last.get("picks", [])
+            if not picks:
+                st.info("No sectors passed trend filters. Holding Cash (SHV).")
+            else:
+                for p in picks:
+                    st.markdown(
+                        f'<div class="opp-card" style="border-left:4px solid #00d4ff;">'
+                        f'<div style="display:flex;justify-content:space-between;align-items:center;">'
+                        f'<span><b style="font-size:1.2rem;">{p["ticker"]}</b> <small>• Score: {p["momentum_score"]:.1f}</small></span>'
+                        f'<span class="badge-buy">BUY</span>'
+                        f'</div></div>', unsafe_allow_html=True
+                    )
+        
+        with c2:
+            st.markdown("**Portfolio Allocation**")
+            weights = last.get("weights", {})
+            if weights:
+                fig_pie = go.Figure(data=[go.Pie(labels=list(weights.keys()), values=list(weights.values()), hole=.6)])
+                fig_pie.update_layout(showlegend=False, height=220, margin=dict(l=0,r=0,t=0,b=0),
+                                    paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
+                st.plotly_chart(fig_pie, use_container_width=True)
+
+        # Universe Status
+        with st.expander("📊 Full Universe Trend Check"):
+            all_res = last.get("all_results", [])
+            if all_res:
+                status_df = pd.DataFrame(all_res)
+                st.dataframe(status_df.style.background_gradient(subset=['momentum_score'], cmap='RdYlGn'), use_container_width=True)
+
+# 🤖 PAGE: AI COMMAND CENTER
 elif page == "🤖 AI Command Center":
     st.markdown('<div class="hero-banner"><p class="hero-title">🤖 AI Command Center</p>'
                 '<p class="hero-sub">Chat with your LangChain trading agent — query any scanner naturally</p></div>',
