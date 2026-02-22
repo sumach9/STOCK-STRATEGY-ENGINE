@@ -1176,6 +1176,8 @@ elif page == "🔄 Sector Rotation":
                             paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
             st.plotly_chart(fig, use_container_width=True)
 
+        st.info("💡 **Strategy Logic**: Final Score = 50% Trend (Slope) + 50% Relative Strength vs SPY. Top 3 are selected monthly. Positions are liquidated immediately if Price < MA50.")
+
         # Current Signals
         last = results.get("last_rebalance", {})
         st.subheader("🎯 Current Trading Signals")
@@ -1188,12 +1190,19 @@ elif page == "🔄 Sector Rotation":
                 st.info("No sectors passed trend filters. Holding Cash (SHV).")
             else:
                 for p in picks:
+                    status_html = '<span class="badge-buy">BUY</span>'
+                    flags = ""
+                    if p.get("weakness"):
+                        flags += ' <span style="color:#ffa000; font-size:0.8rem;">⚠️ Weakness</span>'
+                    
                     st.markdown(
                         f'<div class="opp-card" style="border-left:4px solid #00d4ff;">'
                         f'<div style="display:flex;justify-content:space-between;align-items:center;">'
-                        f'<span><b style="font-size:1.2rem;">{p["ticker"]}</b> <small>• Score: {p["momentum_score"]:.1f}</small></span>'
-                        f'<span class="badge-buy">BUY</span>'
-                        f'</div></div>', unsafe_allow_html=True
+                        f'<span><b style="font-size:1.2rem;">{p["ticker"]}</b> <small>• Final: {p["final_score"]:.2f}</small>{flags}</span>'
+                        f'{status_html}'
+                        f'</div>'
+                        f'<div style="font-size:0.8rem; color:#7b8fa8; margin-top:4px;">Trend: {p.get("trend_score",0):.2f} | RS: {p.get("rs_score",0):.2f}</div>'
+                        f'</div>', unsafe_allow_html=True
                     )
         
         with c2:
@@ -1205,12 +1214,25 @@ elif page == "🔄 Sector Rotation":
                                     paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
                 st.plotly_chart(fig_pie, use_container_width=True)
 
-        # Universe Status
-        with st.expander("📊 Full Universe Trend Check"):
-            all_res = last.get("all_results", [])
+        # Universe View
+        with st.expander("🔍 Universe Trend Check (All Sectors)"):
+            all_res = results.get("all_results", [])
             if all_res:
-                status_df = pd.DataFrame(all_res)
-                st.dataframe(status_df.style.background_gradient(subset=['momentum_score'], cmap='RdYlGn'), use_container_width=True)
+                df_all = pd.DataFrame(all_res)
+                # Sort by final score
+                df_all = df_all.sort_values("final_score", ascending=False)
+                
+                # Format for display
+                df_display = df_all[['ticker', 'final_score', 'trend_score', 'rs_score', 'hard_exit', 'weakness']].copy()
+                df_display.columns = ['Ticker', 'Final Score', 'Trend', 'RS', 'Price < MA50', '30D Neg']
+                
+                st.dataframe(
+                    df_display.style.background_gradient(subset=['Final Score'], cmap='RdYlGn')
+                    .format({'Final Score': '{:.2f}', 'Trend': '{:.2f}', 'RS': '{:.2f}'}),
+                    use_container_width=True
+                )
+            else:
+                st.write("No detailed results available.")
 
 # 🤖 PAGE: AI COMMAND CENTER
 elif page == "🤖 AI Command Center":

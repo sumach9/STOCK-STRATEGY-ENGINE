@@ -4,13 +4,13 @@ import numpy as np
 import json
 import os
 import sys
+import pandas_ta as ta
 from datetime import datetime, timedelta
 
 # Add root to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from strategy.rotation import SectorRotationStrategy
-from data.yfinance_client import YFinanceClient
 
 class SafeEncoder(json.JSONEncoder):
     def default(self, obj):
@@ -18,108 +18,129 @@ class SafeEncoder(json.JSONEncoder):
             return obj.item()
         if isinstance(obj, np.ndarray):
             return obj.tolist()
+        if isinstance(obj, np.bool_):
+            return bool(obj)
         if isinstance(obj, (pd.Timestamp, datetime)):
             return obj.isoformat()
         return super(SafeEncoder, self).default(obj)
 
 def run_rotation_backtest():
-    print("🚀 Starting Sector Rotation Backtest...")
+    print("🚀 Starting Refined Sector Rotation Backtest...")
     
     strategy = SectorRotationStrategy()
+    universe = strategy.UNIVERSE + [strategy.BENCHMARK, strategy.CASH_ETF]
     
     # 1. Download Data
-    universe = strategy.UNIVERSE + [strategy.BENCHMARK, strategy.CASH_ETF]
     print(f"⏳ Downloading data for {len(universe)} symbols...")
-    
     data = yf.download(universe, period="2y", group_by='ticker', progress=False)
     
-    # 2. Extract price dataframes
     prices = {}
+    ma50_dfs = {}
     for ticker in universe:
         if isinstance(data.columns, pd.MultiIndex):
-            prices[ticker] = data[ticker].dropna().copy()
+            df = data[ticker].dropna().copy()
         else:
-            prices[ticker] = data.dropna().copy()
-            
-    # 3. Monthly Rebalance Dates
+            df = data.dropna().copy()
+        prices[ticker] = df
+        if 'Close' in df.columns and len(df) > 50:
+            ma50_dfs[ticker] = ta.sma(df['Close'], length=50)
+
     spy = prices[strategy.BENCHMARK]
     rebalance_dates = spy.resample('ME').last().index
     
-    # 4. Simulation Loop
+    # 2. Simulation State
     cash = 1000.0
-    shares = {}
+    shares = {} # ticker: share_count
     
     all_dates = spy.index
     history = []
     plan = {}
     
-    print("🏃 Running simulation...")
+    print("🏃 Running simulation with Daily Hard Exit logic...")
     
     for date in all_dates:
-        # Check if today is a rebalance day (monthly)
+        # --- A. DAILY HARD EXIT CHECK ---
+        # "Sell a sector immediately if Price drops below 50-day MA"
+        liquidated_proceeds = 0.0
+        to_delete = []
+        for ticker, s in shares.items():
+            if ticker in [strategy.CASH_ETF, strategy.BENCHMARK]: continue
+            
+            if ticker in ma50_dfs and date in ma50_dfs[ticker].index:
+                curr_price = prices[ticker].loc[date, 'Close']
+                curr_ma50 = ma50_dfs[ticker].loc[date]
+                
+                if curr_price < curr_ma50:
+                    # HARD EXIT triggered
+                    liquidated_proceeds += s * curr_price
+                    to_delete.append(ticker)
+        
+        for t in to_delete:
+            del shares[t]
+        cash += liquidated_proceeds
+
+        # --- B. MONTHLY REBALANCE ---
         if date in rebalance_dates:
             # We use data available UP TO this date
             obs_data = {t: prices[t][:date] for t in prices if not prices[t][:date].empty}
             spy_obs = spy[:date]
             
-            # Analyze
+            # Analyze using refined strategy
             plan = strategy.analyze_universe(obs_data, spy_obs)
-            current_weights = plan["weights"]
             
-            # Rebalance Logic
+            # Liquidation of whole portfolio to rethink allocation
             total_value = cash
             for t, s in shares.items():
-                price = prices[t].loc[date, 'Close'] if date in prices[t].index else prices[t].iloc[prices[t].index.get_indexer([date], method='pad')[0]]['Close']
-                total_value += s * price
+                p = prices[t].loc[date, 'Close'] if date in prices[t].index else prices[t][:date]['Close'].iloc[-1]
+                total_value += s * p
             
-            cash = total_value
+            # Reset and re-allocate
             shares = {}
-            for ticker, weight in current_weights.items():
-                available_price_df = prices[ticker][:date]
-                if not available_price_df.empty:
-                    price = available_price_df['Close'].iloc[-1]
-                    shares[ticker] = (total_value * weight) / price
-                    cash -= (shares[ticker] * price)
-                
-        # Daily Update
-        day_value = cash
+            cash = total_value
+            new_weights = plan["weights"]
+            
+            for ticker, weight in new_weights.items():
+                if weight <= 0: continue
+                p_df = prices[ticker][:date]
+                if not p_df.empty:
+                    p = p_df['Close'].iloc[-1]
+                    shares[ticker] = (total_value * weight) / p
+                    cash -= (shares[ticker] * p)
+
+        # --- C. DAILY LOGGING ---
+        day_equity = cash
         for t, s in shares.items():
-            current_price_df = prices[t][:date]
-            if not current_price_df.empty:
-                price = current_price_df['Close'].iloc[-1]
-                day_value += s * price
+            current_p_df = prices[t][:date]
+            if not current_p_df.empty:
+                day_equity += s * current_p_df['Close'].iloc[-1]
             
         history.append({
             "date": date.strftime('%Y-%m-%d'),
-            "equity": day_value,
+            "equity": day_equity,
             "spy_price": spy.loc[date, 'Close']
         })
 
-    # 5. Calculate Metrics
+    # 3. Performance Metrics
     df_hist = pd.DataFrame(history)
     df_hist['equity_ret'] = df_hist['equity'].pct_change()
-    
-    # Normalize comparison
     df_hist['strategy_cum'] = df_hist['equity'] / df_hist['equity'].iloc[0]
     df_hist['spy_cum'] = df_hist['spy_price'] / df_hist['spy_price'].iloc[0]
     
-    cagr = (df_hist['strategy_cum'].iloc[-1] ** (252/len(df_hist)) - 1) * 100
-    spy_cagr = (df_hist['spy_cum'].iloc[-1] ** (252/len(df_hist)) - 1) * 100
-    
+    n_days = len(df_hist)
+    cagr = (df_hist['strategy_cum'].iloc[-1] ** (252/n_days) - 1) * 100
+    spy_cagr = (df_hist['spy_cum'].iloc[-1] ** (252/n_days) - 1) * 100
     vol = df_hist['equity_ret'].std() * np.sqrt(252) * 100
     sharpe = (cagr - 3.0) / vol if vol > 0 else 0
-    
     roll_max = df_hist['strategy_cum'].cummax()
-    dd = (df_hist['strategy_cum'] - roll_max) / roll_max
-    max_dd = dd.min() * 100
+    max_dd = ((df_hist['strategy_cum'] - roll_max) / roll_max).min() * 100
     
     results = {
         "metrics": {
-            "cagr": float(round(cagr, 2)),
-            "spy_cagr": float(round(spy_cagr, 2)),
-            "volatility": float(round(vol, 2)),
+            "cagr": float(round(cagr, 1)),
+            "spy_cagr": float(round(spy_cagr, 1)),
+            "volatility": float(round(vol, 1)),
             "sharpe": float(round(sharpe, 2)),
-            "max_drawdown": float(round(max_dd, 2))
+            "max_drawdown": float(round(max_dd, 1))
         },
         "equity_curve": df_hist[['date', 'strategy_cum', 'spy_cum']].to_dict(orient='records'),
         "last_rebalance": plan
@@ -128,7 +149,7 @@ def run_rotation_backtest():
     with open("rotation_results.json", "w") as f:
         json.dump(results, f, indent=4, cls=SafeEncoder)
         
-    print(f"✅ Backtest Complete. CAGR: {cagr:.1f}% | Sharpe: {sharpe:.2f}")
+    print(f"✅ Refined Backtest Complete. CAGR: {cagr:.1f}% | Sharpe: {sharpe:.2f}")
 
 if __name__ == "__main__":
     run_rotation_backtest()
