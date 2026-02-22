@@ -46,7 +46,7 @@ def run_rotation_backtest():
     rebalance_dates = spy.resample('ME').last().index
     
     # 4. Simulation Loop
-    cash = 100000.0
+    cash = 1000.0
     shares = {}
     
     all_dates = spy.index

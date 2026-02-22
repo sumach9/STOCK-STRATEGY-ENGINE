@@ -1142,16 +1142,22 @@ elif page == "🔄 Sector Rotation":
     results = load_json("rotation_results.json", None)
     
     if not results:
-        st.warning("No backtest results found. Running initial analysis...")
-        if st.button("🚀 Run Analysis & Backtest"):
-            with st.spinner("Processing 2 years of sector data..."):
-                # We can't easily wait for the background process here, 
-                # but we can trigger it or just run a simplified version.
-                # For now, let's assume it was run.
-                st.info("Scanner triggered. Refresh in 30s.")
+        # ... (initial analysis block remains same)
+        st.warning("No backtest results found.")
     else:
+        # User defined capital
+        cap_col1, cap_col2 = st.columns([1, 3])
+        with cap_col1:
+            capital = st.number_input("Starting Capital ($)", min_value=1, value=1000, step=100)
+            
         metrics = results.get("metrics", {})
         cols = st.columns(4)
+        
+        df_eq = pd.DataFrame(results.get("equity_curve", []))
+        strategy_final_val = 0
+        if not df_eq.empty:
+            strategy_final_val = df_eq['strategy_cum'].iloc[-1] * capital
+
         with cols[0]:
             st.metric("Strategy CAGR", f"{metrics.get('cagr', 0)}%", f"{metrics.get('cagr',0) - metrics.get('spy_cagr',0):.1f}% vs SPY")
         with cols[1]:
@@ -1159,15 +1165,14 @@ elif page == "🔄 Sector Rotation":
         with cols[2]:
             st.metric("Max Drawdown", f"{metrics.get('max_drawdown', 0)}%")
         with cols[3]:
-            st.metric("Volatility", f"{metrics.get('volatility', 0)}%")
+            st.metric("Current Value", f"${strategy_final_val:,.2f}", f"{((strategy_final_val/capital)-1)*100:+.1f}%")
 
         # Equity Curve
-        df_eq = pd.DataFrame(results.get("equity_curve", []))
         if not df_eq.empty:
             fig = go.Figure()
-            fig.add_trace(go.Scatter(x=df_eq['date'], y=df_eq['strategy_cum'], name='Strategy', line=dict(color='#00d4ff', width=3)))
-            fig.add_trace(go.Scatter(x=df_eq['date'], y=df_eq['spy_cum'], name='SPY (Benchmark)', line=dict(color='#7b8fa8', dash='dash')))
-            fig.update_layout(title="Growth of $1", template="plotly_dark", height=400, margin=dict(l=0,r=0,t=40,b=0),
+            fig.add_trace(go.Scatter(x=df_eq['date'], y=df_eq['strategy_cum'] * capital, name='Strategy', line=dict(color='#00d4ff', width=3)))
+            fig.add_trace(go.Scatter(x=df_eq['date'], y=df_eq['spy_cum'] * capital, name='SPY (Benchmark)', line=dict(color='#7b8fa8', dash='dash')))
+            fig.update_layout(title=f"Equity Growth (${capital:,} Initial)", template="plotly_dark", height=400, margin=dict(l=0,r=0,t=40,b=0),
                             paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
             st.plotly_chart(fig, use_container_width=True)
 
